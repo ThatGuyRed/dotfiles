@@ -1,9 +1,0 @@
-2026/02/15-22:49:10.288 5 Reusing MANIFEST /home/red/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
-2026/02/15-22:49:10.318 5 Recovering log #50
-2026/02/15-22:49:10.321 5 Reusing old log /home/red/.config/chromium/Default/Local Storage/leveldb/000050.log 
-2026/02/15-23:15:53.819 7 Level-0 table #54: started
-2026/02/15-23:15:53.825 7 Level-0 table #54: 19565 bytes OK
-2026/02/15-23:15:53.833 7 Delete type=0 #50
-2026/02/15-23:24:14.829 7 Level-0 table #56: started
-2026/02/15-23:24:14.868 7 Level-0 table #56: 195358 bytes OK
-2026/02/15-23:24:14.874 7 Delete type=0 #53
