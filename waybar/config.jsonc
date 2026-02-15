@@ -7,29 +7,30 @@
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
-        "hyprland/workspaces",
-        "hyprland/submap",
+        "sway/workspaces",
+        "sway/submap",
 	"wlr/taskbar",
         "sway/scratchpad",
         "custom/media"
     ],
     "modules-center": [
-        "hyprland/window"
+        "sway/window"
     ],
     "modules-right": [
-        "mpd",
-        "idle_inhibitor",
+        //"mpd",
+        //"idle_inhibitor",
         "pulseaudio",
         "network",
         "power-profiles-daemon",
         //"cpu",
         //"memory",
         //"temperature",
-        "backlight",
-        "keyboard-state",
-        "sway/language",
-        "battery",
-        "battery#bat2",
+        //"backlight",
+        //"keyboard-state",
+        //"sway/language",
+        //"battery",
+        //"battery#bat2",
+	"group/battery-backlight",
         "clock",
         "tray",
         "custom/power"
@@ -51,6 +52,7 @@
     //         "default": ""
     //     }
     // },
+    
     "keyboard-state": {
         "numlock": true,
         "capslock": true,
@@ -131,7 +133,8 @@
     },
     "backlight": {
         // "device": "acpi_video1",
-        "format": "{percent}% {icon}",
+        "format": "{icon}",
+	"tooltip-format": "{percent}% {icon}",
         "format-icons": ["", "", "", "", "", "", "", "", ""]
     },
     "battery": {
@@ -152,6 +155,13 @@
     "battery#bat2": {
         "bat": "BAT2"
     },
+    "group/battery-backlight": {
+	    "orientation": "horizontal",
+	    "modules": [
+	    	"battery",
+	    	"backlight"
+	    ]
+    },
     "power-profiles-daemon": {
       "format": "{icon}",
       "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
@@ -170,7 +180,8 @@
         "tooltip-format": "{ifname} via {gwaddr} ",
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "Disconnected ⚠",
-        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+        //"format-alt": "{ifname}: {ipaddr}/{cidr}"
+	"on-click": "cd ~/.config/scripts && ./nmtui.sh"
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float

@@ -208,6 +208,21 @@ bindsym $mod+Shift+r mode "resize"
 #
 # Quick Resize:
 #
+    # left will shrink the containers width
+    # right will grow the containers width
+    # up will shrink the containers height
+    # down will grow the containers height
+    bindsym $mod+Ctrl+$left resize shrink width 10px
+    bindsym $mod+Ctrl+$down resize grow height 10px
+    bindsym $mod+Ctrl+$up resize shrink height 10px
+    bindsym $mod+Ctrl+$right resize grow width 10px
+
+    # Ditto, with arrow keys
+    bindsym $mod+Ctrl+Left resize shrink width 10px
+    bindsym $mod+Ctrl+Down resize grow height 10px
+    bindsym $mod+Ctrl+Up resize shrink height 10px
+    bindsym $mod+Ctrl+Right resize grow width 10px
+
 
 #
 # Utilities:
@@ -223,6 +238,12 @@ bindsym $mod+Shift+r mode "resize"
     # Special key to take a screenshot with grim
     bindsym Print exec grimshot save screen # Current Window
     bindsym $mod+Print exec grimshot save area # Select area
+
+#
+# Clipboard
+#
+   bindsym Ctrl+Shift+C exec wl-copy
+   bindsym Ctrl+Shift+V exec wl-paste
 
 #
 # Status Bar:
@@ -256,19 +277,24 @@ set $white 	#ffffff
 #
 
 # Borders + remove title bar
-#for_window [class="^.*"] border pixel 2
 default_border pixel 2
+
 # Gaps 
 gaps inner 1
+
+#
 # Border colour
 #		border		background	text	indicator
 client.focused	$prussian	$gold	$white	$white
 
 #
+# Window rules
+#
+for_window [title="Network Manager"] floating enable, resize set 540 px 370 px, move position 834 px -2 px, border none
+#
 # Startup
 #
-exec_always kanshi
+exec_always autotiling
+exec_always = wl-paste --type text --watch cliphist store # Stores only text data
+exec_always = wl-paste --type image --watch cliphist store # Stores only image data
 
-exec_always {
-gsettings set org.gnome.desktop.interface gtk-theme 'oomox-lcars_scrot_custom'
-}

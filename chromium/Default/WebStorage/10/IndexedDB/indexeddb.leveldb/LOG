@@ -1,0 +1,6 @@
+2026/02/15-23:05:16.003 252b Creating DB /home/red/.config/chromium/Default/WebStorage/10/IndexedDB/indexeddb.leveldb since it was missing.
+2026/02/15-23:05:16.010 252b Reusing MANIFEST /home/red/.config/chromium/Default/WebStorage/10/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2026/02/15-23:17:22.618 252d Level-0 table #5: started
+2026/02/15-23:17:22.622 252d Level-0 table #5: 11743 bytes OK
+2026/02/15-23:17:22.626 252d Delete type=0 #3
+2026/02/15-23:17:22.626 252d Manual compaction at level-0 from (begin) .. (end); will stop at (end)
