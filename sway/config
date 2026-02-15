@@ -302,6 +302,7 @@ for_window [title="Volume Control"] floating enable, resize set 450 px 745 px, m
 # Startup
 #
 exec_always autotiling
-exec_always = wl-paste --type text --watch cliphist store # Stores only text data
-exec_always = wl-paste --type image --watch cliphist store # Stores only image data
+#exec_always = wl-paste --type text --watch cliphist store # Stores only text data
+#exec_always = wl-paste --type image --watch cliphist store # Stores only image data
+exec_always clipse -listen
 
