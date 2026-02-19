@@ -1,0 +1,9 @@
+[mgr]
+show_hidden = true
+[opener]
+edit = [
+  	{ run = "alacritty -e nvim %s && disown" }
+]
+open = [
+	{ run = "xdg-open %s", desc = "Open" },
+]
