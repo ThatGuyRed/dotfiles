@@ -1,8 +1,9 @@
 [mgr]
+ratio = [4,4,0]
 show_hidden = true
 [opener]
 edit = [
-  	{ run = "alacritty -e ~/.config/scripts/tmux_ide_v2.sh %s && disown" }
+  	{ run = "alacritty -e ~/.config/scripts/tmux_ide_v2.sh %s", orphan = true }
 ]
 open = [
 	{ run = "xdg-open %s", desc = "Open" },

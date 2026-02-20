@@ -121,11 +121,13 @@
     },
     "cpu": {
         "format": "{usage}% ",
-        "tooltip": false
+        "tooltip": false,
+	"on-click": "~/.config/scripts/btop.sh"
     },
     "memory": {
         //"format": "{}% "
-	"format": "{used:0.1f}G/{total:0.1f}G "
+	"format": "{used:0.1f}G/{total:0.1f}G ",
+	"on-click": "~/.config/scripts/btop.sh"
     },
     "temperature": {
         // "thermal-zone": 2,
@@ -232,7 +234,8 @@
 	    "modules": [
 	    	"cpu",
 	    	"memory"
-	    ]
+	    ],
+	    "on-click": "~/.config/scripts/btop.sh"
     },
     "custom/media": {
         "format": "{icon} {}",
