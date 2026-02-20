@@ -2,7 +2,7 @@
 show_hidden = true
 [opener]
 edit = [
-  	{ run = "alacritty -e nvim %s && disown" }
+  	{ run = "alacritty -e ~/.config/scripts/tmux_ide_v2.sh %s && disown" }
 ]
 open = [
 	{ run = "xdg-open %s", desc = "Open" },

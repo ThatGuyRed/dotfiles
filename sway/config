@@ -58,9 +58,10 @@ output eDP-1 bg /home/red/Pictures/Wallpapers/enterprise.jpg fill scale 1.4
        middle_emulation enabled
    }
 #
-#   input type:keyboard {
-#       xkb_layout "eu"
-#   }
+   input type:keyboard {
+       xkb_layout "us"
+       xkb_options "caps:escape"
+   }
 # 
 # You can also configure each device individually.
 # Read `man 5 sway-input` for more information about this section.
@@ -80,6 +81,7 @@ output eDP-1 bg /home/red/Pictures/Wallpapers/enterprise.jpg fill scale 1.4
 
     # Start file browser
     bindsym $mod+e exec $filebrowser
+    bindsym $mod+w exec ~/.config/scripts/yazi.sh
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
@@ -87,6 +89,9 @@ output eDP-1 bg /home/red/Pictures/Wallpapers/enterprise.jpg fill scale 1.4
     # Change normal to inverse to use left mouse button for resizing and right
     # mouse button for dragging.
     floating_modifier $mod normal
+    
+    # Toggle floating
+    bindsym Ctrl+Shift+f floating toggle
 
     # Reload the configuration file
     #bindsym $mod+Shift+c reload
@@ -236,14 +241,14 @@ bindsym $mod+Shift+r mode "resize"
     bindsym --locked XF86MonBrightnessDown exec brightnessctl set 5%-
     bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
     # Special key to take a screenshot with grim
-    bindsym Print exec grimshot save screen # Current Window
-    bindsym $mod+Print exec grimshot save area # Select area
+    bindsym Print exec grim - | wl-copy # All outputs
+    bindsym $mod+Print exec grim -g "$(slurp)" | wl-copy # Select area
 
 #
 # Clipboard
 #
-   bindsym Ctrl+Shift+C exec wl-copy
-   bindsym Ctrl+Shift+V exec wl-paste
+   #bindsym Ctrl+Shift+C exec wl-copy
+   #bindsym Ctrl+Shift+V exec wl-paste
 
 #
 # Status Bar:
@@ -291,10 +296,12 @@ client.focused	$prussian	$gold	$white	$white
 # Window rules
 #
 
-# Wayapp applets
+# Waybar applets
 for_window [title="Network Manager"] floating enable, resize set 540 px 370 px, move position 834 px -2 px, border none
 for_window [title="Calcurse"] floating enable, resize set 700 px 480 px, move position 670 px -2 px, border none
 for_window [title="Volume Control"] floating enable, resize set 450 px 745 px, move position 920 px -2 px, border none
+for_window [title="Bluetooth Control"] floating enable, resize set 700 px 140 px, move position 670 px -2 px, border none
+for_window [title="Yazi Sidebar"] floating enable, resize set 450 px 745 px, move position 0 px -2 px, border none
 
 
 
@@ -304,5 +311,6 @@ for_window [title="Volume Control"] floating enable, resize set 450 px 745 px, m
 exec_always autotiling
 #exec_always = wl-paste --type text --watch cliphist store # Stores only text data
 #exec_always = wl-paste --type image --watch cliphist store # Stores only image data
+#exec_always wl-paste --primary --watch wl-copy
 exec_always clipse -listen
 

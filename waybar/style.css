@@ -118,10 +118,7 @@ button:hover {
     background: #ffaa00;
     color: #000000;
 }
-#pulseaudio
-{
-    border-bottom-left-radius: 15px;
-}
+
 #window,
 #workspaces {
     margin: 0;
@@ -185,6 +182,22 @@ button:hover {
 #backlight {
     padding-right: 6px;
 }
+#network-bt {
+	padding-left: 4px;
+	background-color: #ffaa00;
+	color: #000000;
+}
+#network-bt * {
+	padding: 0px 2px;
+	margin: 1px 1px;
+	padding-right: 4px;
+}
+#pulseaudio{
+	border-bottom-left-radius: 15px;
+}
+#bluetooth {
+}
+
 
 @keyframes blink {
     to {
@@ -227,18 +240,26 @@ label:focus {
     background-color: #000000;
 }
 
+#cpu-memory {
+      background-color: #ffaa00;
+}
+#cpu-memory * {
+	padding: 0px 4px;
+	margin: 1px 1px;
+}
 #cpu {
     /*
     background-color: #2ecc71;
     color: #000000;
     */
 }
-
 #memory {
+    padding-top: 1px;
     /*
     background-color: #9b59b6;
     */
 }
+
 
 #disk {
     background-color: #964B00;
@@ -251,16 +272,18 @@ label:focus {
 }
 
 #network {
+    padding-top: 1px;
     /*
     background-color: #2980b9;
     */
 }
 
 #network.disconnected {
-    background-color: #f53c3c;
+    /*background-color: #f53c3c;*/
 }
 
 #pulseaudio {
+    padding-top: 1px;
     /*
     background-color: #f1c40f;
     color: #000000;

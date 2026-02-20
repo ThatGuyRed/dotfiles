@@ -18,7 +18,7 @@ tmux resize-pane -D -t 0 -y 110 # Resizes Pane 1
 # Send a command to the first pane
 #tmux send-keys -t 0 'cd $WORKING_DIR' C-m
 #tmux send-keys -t 1 'cd $WORKING_DIR' C-m
-tmux send-keys -t 0 'nvim' C-m
+tmux send-keys -t 0 'nvim "$WORKING_DIR"' C-m
 
 # Attach to the created session
 tmux attach-session
