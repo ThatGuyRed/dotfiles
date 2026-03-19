@@ -5,34 +5,65 @@
      "type": "auto",
      "source": "Linux",
      "padding": {
-        "top": 1,
+        "top": 0,
 	"left": 3
      }
   },
   "modules": [
-    "title",
-    "separator",
-    "os",
-    //"host",
-    "kernel",
-    "uptime",
-    "packages",
-    "shell",
+    //"title",
+    //"separator",
+    "break",
+    {
+      "key": " ",
+      "type": "kernel",
+      "format": "Arch {sysname} {release}"
+    },
+    //"uptime",
+    //"shell",
     //"display",
     //"de",
-    "wm",
-    "wmtheme",
+    //"wm",
+    //"wmtheme",
+    {
+	"key": " ",
+	"type": "wm",
+	"format": "{pretty-name} {version}"
+    },
+    //"packages",
+    {
+	    "key": " ",
+	    "type": "packages"
+     },
+    "break",
     "theme",
     "icons",
     "font",
     //"cursor",
     //"terminal",
     //"terminalfont",
-    "cpu",
-    "gpu",
-    "memory",
-    "swap",
-    "disk",
+    //"gpu",
+    {
+	"type": "cpu",
+	"format": "{name} {cores-physical}C/{cores-logical}T",
+	"key": " "
+    },
+    {
+	    "type": "memory",
+	    "key": " ",
+	    "format": "{used} / {total}"
+    },
+    {
+	    "type": "swap",
+	    "key": " ",
+	    "format": "{used} / {total}"
+    },
+    "break",
+    //"disk",
+    {
+	    "type": "disk",
+	    "key": " ",
+	    "format": "{size-used} / {size-total} {mountpoint}"
+    },
     //"localip",
     //"battery",
     //"poweradapter",

@@ -25,7 +25,11 @@ set $filebrowser thunar
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 #output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
-output eDP-1 bg /home/red/Pictures/Wallpapers/enterprise.jpg fill scale 1.4 
+output eDP-1 bg /home/red/Pictures/Wallpapers/enterprise.jpg fill scale 1.4 pos 0 0
+output HDMI-A-1 scale 1.4 pos 0 -776 bg /home/red/Pictures/Wallpapers/enterprise.jpg fill
+#output HDMI-A-1 scale 1.4 pos -1920 0 transform 90
+#output HDMI-A-1 scale 1.4 pos 1920 0 bg /home/red/Pictures/Wallpapers/enterprise.jpg fill 
+
 
 #
 # Example configuration:
@@ -84,10 +88,14 @@ output eDP-1 bg /home/red/Pictures/Wallpapers/enterprise.jpg fill scale 1.4
     bindsym $mod+w exec ~/.config/scripts/yazi.sh
     
     # Start web browser
-    bindsym $mod+o exec chromium
+    bindsym $mod+i exec zen-browser
+    bindsym $mod+o exec obsidian
 
     # Start email client
     bindsym $mod+p exec betterbird
+
+    # Toggle waybar
+    bindsym $mod+u exec pkill waybar || waybar
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
@@ -98,7 +106,9 @@ output eDP-1 bg /home/red/Pictures/Wallpapers/enterprise.jpg fill scale 1.4
     
     # Toggle floating
     bindsym Ctrl+Shift+f floating toggle
-
+    
+    # Disable touchpad
+    bindsym $mod+t exec swaymsg input type:touchpad events toggle enabled disabled
     # Reload the configuration file
     #bindsym $mod+Shift+c reload
 
@@ -247,8 +257,12 @@ bindsym $mod+Shift+r mode "resize"
     bindsym --locked XF86MonBrightnessDown exec brightnessctl set 5%-
     bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
     # Special key to take a screenshot with grim
-    bindsym Print exec grim - | wl-copy # All outputs
-    bindsym $mod+Print exec grim -g "$(slurp)" | wl-copy # Select area
+    #bindsym Print exec grim - | wl-copy # All outputs
+    #bindsym $mod+Print exec grim -g "$(slurp)" | wl-copy # Select area
+    bindsym Print exec hyprshot -m output # All outputs
+    bindsym $mod+Print exec hyprshot -m region # Select area
+
+
 
 #
 # Clipboard
@@ -326,4 +340,5 @@ exec_always autotiling
 #exec_always = wl-paste --type image --watch cliphist store # Stores only image data
 #exec_always wl-paste --primary --watch wl-copy
 exec_always clipse -listen
+exec_always dunst
 
