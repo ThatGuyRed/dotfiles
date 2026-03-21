@@ -5,16 +5,28 @@
      "type": "auto",
      "source": "Linux",
      "padding": {
-        "top": 0,
-	"left": 3
+        "top": 1,
+	"left": 5,
+	"right": 6,
+	"bottom": 1
      }
+  },
+  "display": { 
+    "separator": " ",
+    "color": {
+	    "keys": "#ffaa00"
+    }
   },
   "modules": [
     //"title",
     //"separator",
     "break",
     {
-      "key": " ",
+      "key": "╭──────────────────────────────────────╮",
+      "type": "custom"
+    },
+    {
+      "key": "   ",
       "type": "kernel",
       "format": "Artix {sysname} {release}"
     },
@@ -25,13 +37,13 @@
     //"wm",
     //"wmtheme",
     {
-	"key": " ",
+	"key": "   ",
 	"type": "wm",
 	"format": "{pretty-name} {version}"
     },
     //"packages",
     {
-	    "key": " ",
+	    "key": "   ",
 	    "type": "packages"
      },
     "break",
@@ -45,30 +57,36 @@
     {
 	"type": "cpu",
 	"format": "{name} {cores-physical}C/{cores-logical}T",
-	"key": " "
+	"brand": false,
+	"key": "   "
     },
     {
 	    "type": "memory",
-	    "key": " ",
+	    "key": "   ",
 	    "format": "{used} / {total}"
     },
     {
 	    "type": "swap",
-	    "key": " ",
+	    "key": "   ",
 	    "format": "{used} / {total}"
     },
     "break",
     //"disk",
     {
 	    "type": "disk",
-	    "key": " ",
+	    "key": "   ",
 	    "format": "{size-used} / {size-total} {mountpoint}"
     },
     //"localip",
     //"battery",
     //"poweradapter",
     //"locale",
-    "break",
-    //"colors"
+        //"colors"
+    {
+            "key": "╰──────────────────────────────────────╯",
+            "type": "custom"
+    },
+    "break"
+
   ]
 }
