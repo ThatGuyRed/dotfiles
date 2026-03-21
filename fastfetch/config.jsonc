@@ -16,7 +16,7 @@
     {
       "key": " ",
       "type": "kernel",
-      "format": "Arch {sysname} {release}"
+      "format": "Artix {sysname} {release}"
     },
     //"uptime",
     //"shell",

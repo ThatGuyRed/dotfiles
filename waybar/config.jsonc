@@ -8,7 +8,7 @@
     // Choose the order of the modules
     "modules-left": [
         "sway/workspaces",
-        "sway/submap",
+        //"sway/submap",
 	"wlr/taskbar",
         "sway/scratchpad",
         "custom/media"
@@ -197,7 +197,7 @@
         "format-linked": "",
         "format-disconnected": "⚠",
         //"format-alt": "{ifname}: {ipaddr}/{cidr}"
-	"on-click": "cd ~/.config/scripts && ./nmtui.sh"
+	"on-click": "~/.config/scripts/nmtui.sh"
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
@@ -216,11 +216,11 @@
             "car": "",
             "default": [" ", " ", " "]
         },
-        "on-click": "cd ~/.config/scripts && ./pavucontrol.sh"
+        "on-click": "~/.config/scripts/pavucontrol.sh"
     },
     "custom/bluetooth": {
 	"format": " ",
-	"on-click": "cd ~/.config/scripts && ./bluetuith.sh "
+	"on-click": "~/.config/scripts/bluetuith.sh"
     },
     "group/network-bt": {
 	"orientation": "horizontal",
