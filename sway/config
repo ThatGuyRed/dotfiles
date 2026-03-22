@@ -19,7 +19,7 @@ set $term alacritty
 set $menu rofi -show drun
 
 # File browser
-set $filebrowser thunar
+set $filebrowser nemo
 
 ### Output configuration
 #
@@ -318,19 +318,20 @@ client.focused	$prussian	$gold	$white	$white
 
 # Opacity
 set $opacity 0.90
+set $opacity2 0.95
+set $opacity3 0.99
 for_window [app_id="Alacritty"] opacity $opacity
 for_window [app_id="foot"] opacity $opacity
-for_window [app_id="org.pulseaudio.pavucontrol"] opacity $opacity
-#for_window [app_id="connman-gtk"] opacity $opacity
-for_window [app_id="obsidian"] opacity 0.99
+for_window [app_id="org.pulseaudio.pavucontrol"] opacity $opacity2
+for_window [app_id="obsidian"] opacity $opacity3
 
 # Waybar applets
-for_window [title="Network Manager"] floating enable, resize set 540 px 370 px, move position 834 px -2 px, border none
-for_window [title="Calcurse"] floating enable, resize set 700 px 480 px, move position 670 px -2 px, border none
-for_window [title="Volume Control"] floating enable, resize set 450 px 745 px, move position 920 px -2 px, border none
-for_window [title="Bluetooth Control"] floating enable, resize set 700 px 140 px, move position 670 px -2 px, border none
-for_window [title="Yazi Sidebar"] floating enable, resize set 450 px 745 px, move position 0 px -2 px, border none
-for_window [title="btop"] floating enable, resize set 1080 px 650 px, move position 290 px -2 px, border none
+for_window [title="Network Manager"] floating enable, resize set 540 px 370 px, move position 834 px -1 px, border none
+for_window [title="Calcurse"] floating enable, resize set 700 px 480 px, move position 670 px -1 px, border none
+for_window [title="Volume Control"] floating enable, resize set 450 px 738 px, move position 922 px -1 px, border none
+for_window [title="Bluetooth Control"] floating enable, resize set 700 px 140 px, move position 670 px -1 px, border none
+for_window [title="Yazi Sidebar"] floating enable, resize set 450 px 745 px, move position -3 px -1 px, border none
+for_window [title="btop"] floating enable, resize set 1080 px 650 px, move position 290 px -1 px, border none
 
 
 #

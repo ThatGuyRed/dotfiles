@@ -7,6 +7,4 @@ if [ ${#isRunning} != 0 ]; then
 else
 	alacritty -T "Yazi Sidebar" -e yazi "~/Documents/sync/QUT/2026 Semester 1"
 
-      
-
 fi
