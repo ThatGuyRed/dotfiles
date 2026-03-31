@@ -25,10 +25,20 @@ set $filebrowser nemo
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 #output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
-output eDP-1 bg /home/red/Pictures/Wallpapers/enterprise.jpg fill scale 1.4 pos 0 0
-output HDMI-A-1 scale 1.4 pos 0 -776 bg /home/red/Pictures/Wallpapers/enterprise.jpg fill
+
+# Main Display
+output eDP-1 bg /home/red/Pictures/Wallpapers/enterprise.jpg fill scale 1.3 pos 0 0
+
+# HDMI Out
+# Top
+output HDMI-A-1 scale 1.3 pos 0 -830 bg /home/red/Pictures/Wallpapers/enterprise.jpg fill
+# Left
 #output HDMI-A-1 scale 1.4 pos -1920 0 transform 90
-#output HDMI-A-1 scale 1.4 pos 1920 0 bg /home/red/Pictures/Wallpapers/enterprise.jpg fill 
+#output HDMI-A-1 scale 1.4 pos 1920 0 bg /home/red/Pictures/Wallpapers/enterprise.jpg fill
+
+# DisplayPort through USB-C
+output DP-1 scale 1.3 pos -830 -270 transform 90 bg /home/red/Pictures/Wallpapers/enterprise.jpg fill
+ 
 
 
 #
@@ -326,12 +336,12 @@ for_window [app_id="org.pulseaudio.pavucontrol"] opacity $opacity2
 for_window [app_id="obsidian"] opacity $opacity3
 
 # Waybar applets
-for_window [title="Network Manager"] floating enable, resize set 540 px 370 px, move position 834 px -1 px, border none
-for_window [title="Calcurse"] floating enable, resize set 700 px 480 px, move position 670 px -1 px, border none
-for_window [title="Volume Control"] floating enable, resize set 450 px 738 px, move position 922 px -1 px, border none
-for_window [title="Bluetooth Control"] floating enable, resize set 700 px 140 px, move position 670 px -1 px, border none
-for_window [title="Yazi Sidebar"] floating enable, resize set 450 px 745 px, move position -3 px -1 px, border none
-for_window [title="btop"] floating enable, resize set 1080 px 650 px, move position 290 px -1 px, border none
+for_window [title="Network Manager"] floating enable, resize set 570 px 380 px, move position 938 px -1 px, border none
+for_window [title="Calcurse"] floating enable, resize set 700 px 480 px, move position 778 px -1 px, border none
+for_window [title="Volume Control"] floating enable, resize set 400 px 800 px, move position 1078 px -1 px, border none
+for_window [title="Bluetooth Control"] floating enable, resize set 900 px 140 px, move position 578 px -1 px, border none
+for_window [title="Yazi Sidebar"] floating enable, resize set 450 px 800 px, move position -3 px -1 px, border none
+for_window [title="btop"] floating enable, resize set 950 px 600 px, move position 525 px -1 px, border none
 
 
 #

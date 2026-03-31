@@ -6,9 +6,9 @@ fzd() {
 }
 
 ts() {
-  ~/.config/scripts/ts.sh
+  ~/.config/scripts/ts.sh $1
 }
 
 tvim() {
-  ~/.config/scripts/tmux_ide_v2.sh
+  ~/.config/scripts/tmux_ide_v2.sh $1
 }
