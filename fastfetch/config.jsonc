@@ -47,9 +47,9 @@
 	    "type": "packages"
      },
     "break",
-    "theme",
-    "icons",
-    "font",
+    //"theme",
+    //"icons",
+    //"font",
     //"cursor",
     //"terminal",
     //"terminalfont",

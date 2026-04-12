@@ -5,6 +5,6 @@ isRunning=$(ps h -fC calcurse)
 if [ ${#isRunning} != 0 ]; then
 	pkill calcurse
 else
-	alacritty -t "Calcurse" -e calcurse
+	alacritty -t "Calcurse" -e calcurse -D ~/Documents/calcurse
 
 fi

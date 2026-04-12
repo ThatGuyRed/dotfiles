@@ -198,7 +198,9 @@ button:hover {
 #bluetooth {
 }
 
-
+#clock {
+	padding: 0px 6px;
+}
 @keyframes blink {
     to {
         background-color: #ffffff;

@@ -115,8 +115,10 @@
         // "timezone": "America/New_York",
         //"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         //"format-alt": "{:%Y-%m-%d}"
+	"format": "{:L%I:%M %p}",
+	"format-alt": "{:%H:%M}",
 	"tooltip-format": "{:%Y-%m-%d}",
-	"on-click": "cd ~/.config/scripts && ./calcurse.sh"
+	"on-click-right": "cd ~/.config/scripts && ./calcurse.sh"
 
     },
     "cpu": {
@@ -190,7 +192,7 @@
         //"format-disconnected": "Disconnected ⚠",
         //"format-alt": "{ifname}: {ipaddr}/{cidr}"
 	//"on-click": "cd ~/.config/scripts && ./nmtui.sh"
-
+	"interface": "wlan0",
 	"format-wifi": " ",
         "format-ethernet": "",
         "tooltip-format": "{ifname} via {gwaddr} ({signalStrength}%) ",
