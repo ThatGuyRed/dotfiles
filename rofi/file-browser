@@ -1,0 +1,1 @@
+cmd "alacritty -e /home/red/.config/scripts/tmux_ide_v2.sh"
