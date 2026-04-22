@@ -1,15 +1,14 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
     font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
-    font-size: 13px;
+    font-weight: 300;
+    font-size: 14px;
     /*border-radius: 5px;*/
     /*
     padding: 0.01em 0.01em;
     margin: 0.01em 0.01em;
     */
-    padding: 1px;
-    padding-top: 2px;
-    padding-bottom: 1px;
+    padding: 2px 2px;
     /*text-align: bottom;*/
 
 }
@@ -24,8 +23,6 @@ window#waybar {
     color: #ffffff;    
     transition-property: none;
     transition-duration: .5s;
-    
-    padding: 0px 0px;
     margin: 1px 1px;
 
 }
@@ -58,6 +55,7 @@ button {
     /* Avoid rounded borders under each button name */
     border: none;
     border-radius: 0;
+    padding: 0;
 }
 
 /* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
@@ -72,11 +70,10 @@ button:hover {
 }
 
 #workspaces button {
-    /*padding: 0 3px;*/
+    padding: 0 1px;
     background-color: #ffaa00;
     color: #000000;
     text-shadow: none;
-    padding-bottom: 2px;
     /*border-radius: 5px;*/
 }
 
@@ -120,6 +117,9 @@ button:hover {
     color: #000000;
 }
 
+#clock {
+    padding-top: 0px;
+}
 #window,
 #workspaces {
     margin: 0;
@@ -180,20 +180,23 @@ button:hover {
     padding-left: 5px;
 }
 #backlight {
+    padding-top: 1px;
     padding-right: 6px;
 }
 #network-bt {
 	padding-left: 4px;
 	background-color: #ffaa00;
 	color: #000000;
+	border-bottom-left-radius: 15px;
 }
 #network-bt * {
 	padding: 0px 2px;
 	margin: 1px 1px;
-	padding-right: 4px;
+	padding-right: 1px;
 }
 #pulseaudio{
-	border-bottom-left-radius: 15px;
+	padding-left: 6px;
+	border-bottom-right-radius: 15px;
 }
 #bluetooth {
 }
@@ -250,8 +253,8 @@ label:focus {
 	margin: 1px 1px;
 }
 #cpu {
-    /*
-    background-color: #2ecc71;
+    padding-top: 1px;
+    /*background-color: #2ecc71;
     color: #000000;
     */
 }
@@ -357,11 +360,11 @@ label:focus {
     color: #2d3436;
 }
 
-#mpd {
+/*#mpd {
     background-color: #66cc99;
     color: #2a5c45;
 
-    /*margin: 6px 3px;*/
+    margin: 6px 3px;
 }
 
 #mpd.disconnected {
@@ -374,7 +377,7 @@ label:focus {
 
 #mpd.paused {
     background-color: #51a37a;
-}
+}*/
 
 #language {
     background: #00b093;

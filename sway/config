@@ -28,6 +28,8 @@ set $filebrowser nemo
 
 # Main Display
 output eDP-1 bg /home/red/Pictures/Wallpapers/enterprise.jpg fill scale 1.3 pos 0 0
+#output eDP-1 bg /home/red/Pictures/Wallpapers/bavaria.jpg fill scale 1.3 pos 0 0
+
 
 # HDMI Out
 # Top
@@ -95,8 +97,8 @@ output DP-1 scale 1.3 pos -830 -270 transform 90 bg /home/red/Pictures/Wallpaper
 
     # Start file browser
     bindsym $mod+e exec $filebrowser
-    bindsym $mod+w exec ~/.config/scripts/yazi.sh
-    
+    #bindsym $mod+w exec ~/.config/scripts/yazi.sh
+    bindsym $mod+w exec rofi -show file-browser-extended -file-browser-dir ~/Documents/sync/QUT/2026\ Semester\ 1/
     # Start web browser
     bindsym $mod+i exec zen-browser
     bindsym $mod+o exec obsidian
@@ -280,6 +282,16 @@ bindsym $mod+Shift+r mode "resize"
    #bindsym Ctrl+Shift+C exec wl-copy
    #bindsym Ctrl+Shift+V exec wl-paste
 
+
+#
+# Startup
+#
+exec_always autotiling
+exec_always clipse -listen
+exec_always dunst
+exec_always brightnessctl set 35%
+exec_always mpd
+
 #
 # Status Bar:
 #
@@ -338,16 +350,11 @@ for_window [app_id="obsidian"] opacity $opacity3
 # Waybar applets
 for_window [title="Network Manager"] floating enable, resize set 570 px 380 px, move position 938 px -1 px, border none
 for_window [title="Calcurse"] floating enable, resize set 700 px 480 px, move position 778 px -1 px, border none
-for_window [title="Volume Control"] floating enable, resize set 400 px 800 px, move position 1078 px -1 px, border none
+for_window [title="Volume Control"] floating enable, resize set 400 px 800 px, move position 0 px -1 px, border none
 for_window [title="Bluetooth Control"] floating enable, resize set 900 px 140 px, move position 578 px -1 px, border none
 for_window [title="Yazi Sidebar"] floating enable, resize set 450 px 800 px, move position -3 px -1 px, border none
 for_window [title="btop"] floating enable, resize set 950 px 600 px, move position 525 px -1 px, border none
+for_window [title="Music Player"] floating enable, resize set 500 px 400 px, move position 0 px -1 px
 
 
-#
-# Startup
-#
-exec_always autotiling
-exec_always clipse -listen
-exec_always dunst
-exec_always brightnessctl set 35%
+
