@@ -3,14 +3,15 @@
     font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
     font-weight: 300;
     font-size: 14px;
-    /*border-radius: 5px;*/
     /*
+    border-radius: 5px;
     padding: 0.01em 0.01em;
     margin: 0.01em 0.01em;
-    */
-    padding: 2px 2px;
-    /*text-align: bottom;*/
-
+    text-align: bottom;*/
+    margin: 1px;
+    padding: 0;
+    margin-bottom: 0;
+    padding-bottom: 1;
 }
 
 window#waybar {
@@ -23,8 +24,6 @@ window#waybar {
     color: #ffffff;    
     transition-property: none;
     transition-duration: .5s;
-    margin: 1px 1px;
-
 }
 
 window#waybar.hidden {
@@ -193,6 +192,7 @@ button:hover {
 	padding: 0px 2px;
 	margin: 1px 1px;
 	padding-right: 1px;
+	border-bottom-left-radius: 15px;
 }
 #pulseaudio{
 	padding-left: 6px;

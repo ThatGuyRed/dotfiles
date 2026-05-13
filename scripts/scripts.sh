@@ -12,3 +12,7 @@ ts() {
 tvim() {
   ~/.config/scripts/tmux_ide_v2.sh $1
 }
+
+paclean() {
+  ~/.config/scripts/pacclean.sh
+}

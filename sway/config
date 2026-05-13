@@ -27,8 +27,8 @@ set $filebrowser nemo
 #output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 
 # Main Display
+#output eDP-1 bg /home/red/Pictures/Wallpapers/enterprise.jpg fill scale 1.3 pos 0 0
 output eDP-1 bg /home/red/Pictures/Wallpapers/enterprise.jpg fill scale 1.3 pos 0 0
-#output eDP-1 bg /home/red/Pictures/Wallpapers/bavaria.jpg fill scale 1.3 pos 0 0
 
 
 # HDMI Out
@@ -324,7 +324,7 @@ set $white 	#ffffff
 #
 
 # Borders + remove title bar
-default_border pixel 2
+default_border pixel 1
 
 # Gaps 
 gaps inner 1

@@ -8,7 +8,7 @@ return {
       ---@type table<string, snacks.win.Config>
       styles = {
 	      terminal = { height = 0.2 },
-	      explorer = { width = 0.3}
+	      explorer = { width = 0.1 }
       }
    }
 

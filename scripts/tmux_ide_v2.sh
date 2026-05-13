@@ -11,12 +11,12 @@ cd $WORKING_DIR
 tmux source-file ~/.config/tmux.conf
 
 # Create a new session and name it
-tmux new-session -d
+tmux new-session -d -x- -y-
 # Change to working directory
 
 # Split windows
 tmux split-window -v
-tmux resize-pane -D -t 0 -y 110 # Resizes Pane 1
+tmux resize-pane -t 0 -y 34 # Resizes Pane 1
 
 # Send a command to the first pane
 #tmux send-keys -t 0 'cd $WORKING_DIR' C-m
