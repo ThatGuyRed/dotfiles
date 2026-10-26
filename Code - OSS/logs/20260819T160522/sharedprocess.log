@@ -1,7 +1,0 @@
-2026-08-19 16:05:39.627 [info] Getting Manifest... asvetliakov.vscode-neovim
-2026-08-19 16:05:40.868 [info] Installing extension: asvetliakov.vscode-neovim {"productVersion":{"version":"1.131.0","date":"2026-07-28T06:40:51Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/red/.vscode-oss/extensions/extensions.json","path":"/home/red/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false}
-2026-08-19 16:05:45.412 [info] Extension signature verification result for asvetliakov.vscode-neovim: Success. Executed: true. Duration: 1124ms.
-2026-08-19 16:05:45.703 [info] Extracted extension to file:///home/red/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.19.0-universal: asvetliakov.vscode-neovim
-2026-08-19 16:05:45.722 [info] Renamed to /home/red/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.19.0-universal
-2026-08-19 16:05:45.763 [info] Marked extension as removed asvetliakov.vscode-neovim-1.18.24-universal
-2026-08-19 16:05:45.769 [info] Extension installed successfully: asvetliakov.vscode-neovim vscode-userdata:/home/red/.vscode-oss/extensions/extensions.json

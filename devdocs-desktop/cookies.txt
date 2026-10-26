@@ -1,6 +1,0 @@
-devdocs.io	FALSE	/	TRUE	1871668329	docs	c/cpp/css/git/html/http/javascript/latex/python~3.14/dom	Strict
-devdocs.io	FALSE	/	TRUE	1871668329	schema	6	Strict
-devdocs.io	FALSE	/	TRUE	1874149559	hideIntro	1	Strict
-devdocs.io	FALSE	/	TRUE	1874149571	count	4	Strict
-devdocs.io	FALSE	/	TRUE	1874149571	news	1771027200000	Strict
-devdocs.io	FALSE	/	TRUE	1874149571	version	1773857903	Strict

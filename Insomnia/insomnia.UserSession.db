@@ -1,3 +1,0 @@
-{"_id":"usr_a6eb14728b234cd7889799f40d751173","type":"UserSession","parentId":null,"modified":1780197745081,"created":1780197733626,"accountId":"","id":"","email":"","firstName":"","lastName":"","symmetricKey":{},"publicKey":{},"encPrivateKey":{},"vaultKey":"","vaultSalt":""}
-{"$$deleted":true,"_id":"usr_a6eb14728b234cd7889799f40d751173"}
-{"_id":"usr_0348a67528c449ccae878e803779981c","type":"UserSession","parentId":null,"modified":1785319265445,"created":1785319265445,"accountId":"","id":"","email":"","firstName":"","lastName":"","symmetricKey":{},"publicKey":{},"encPrivateKey":{},"vaultKey":"","vaultSalt":""}
