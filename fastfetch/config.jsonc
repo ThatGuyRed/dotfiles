@@ -1,0 +1,92 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "logo": 
+  {
+     "type": "auto",
+     "source": "Linux",
+     "padding": {
+        "top": 1,
+	"left": 5,
+	"right": 6,
+	"bottom": 1
+     }
+  },
+  "display": { 
+    "separator": " ",
+    "color": {
+	    "keys": "#ffaa00"
+    }
+  },
+  "modules": [
+    //"title",
+    //"separator",
+    "break",
+    {
+      "key": "╭──────────────────────────────────────╮",
+      "type": "custom"
+    },
+    {
+      "key": "   ",
+      "type": "kernel",
+      "format": "Artix {sysname} {release}"
+    },
+    //"uptime",
+    //"shell",
+    //"display",
+    //"de",
+    //"wm",
+    //"wmtheme",
+    {
+	"key": "   ",
+	"type": "wm",
+	"format": "{pretty-name} {version}"
+    },
+    //"packages",
+    {
+	    "key": "   ",
+	    "type": "packages"
+     },
+    "break",
+    //"theme",
+    //"icons",
+    //"font",
+    //"cursor",
+    //"terminal",
+    //"terminalfont",
+    //"gpu",
+    {
+	"type": "cpu",
+	"format": "{name} {cores-physical}C/{cores-logical}T",
+	"brand": false,
+	"key": "   "
+    },
+    {
+	    "type": "memory",
+	    "key": "   ",
+	    "format": "{used} / {total}"
+    },
+    {
+	    "type": "swap",
+	    "key": "   ",
+	    "format": "{used} / {total}"
+    },
+    "break",
+    //"disk",
+    {
+	    "type": "disk",
+	    "key": "   ",
+	    "format": "{size-used} / {size-total} {mountpoint}"
+    },
+    //"localip",
+    //"battery",
+    //"poweradapter",
+    //"locale",
+        //"colors"
+    {
+            "key": "╰──────────────────────────────────────╯",
+            "type": "custom"
+    },
+    "break"
+
+  ]
+}

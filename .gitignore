@@ -1,6 +1,5 @@
 # Ignore folders
-*
-!*/
+/*
 !.gitignore
 !/sway/
 !/waybar/
