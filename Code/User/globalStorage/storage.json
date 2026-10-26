@@ -1,0 +1,114 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "045986d184046adcb95e729a39ccd13f3dfbb733ddf6588bb368efc3d7924479",
+    "telemetry.devDeviceId": "de3632fb-0ed2-4751-a7ba-780df8b16693",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [],
+        "emptyWindows": [
+            {
+                "backupFolder": "1789711536566"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {},
+        "emptyWindows": {
+            "1789711536566": "__default__profile__"
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "/home/red/.config/Code/Backups/1789711536566",
+            "uiState": {
+                "mode": 1,
+                "x": 10,
+                "y": 10,
+                "width": 683,
+                "height": 739
+            }
+        },
+        "openedWindows": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#121314",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#bfbfbf",
+            "background": "#121314",
+            "editorBackground": "#121314",
+            "titleBarBackground": "#191a1b",
+            "titleBarBorder": "#2a2b2c",
+            "activityBarBackground": "#191a1b",
+            "activityBarBorder": "#2a2b2c",
+            "modernActivityBarBackground": "#191a1b",
+            "modernActivityBarInactiveBackground": "#191a1b",
+            "modernActivityBarBorder": "#252526",
+            "sideBarBackground": "#191a1b",
+            "sideBarBorder": "#2a2b2c",
+            "panelBackground": "#191a1b",
+            "editorGroupBorder": "rgba(255, 255, 255, 0.09)",
+            "editorBorder": "#2a2b2c",
+            "surfaceBackground": "#191a1b",
+            "surfaceBorder": "#2a2b2c",
+            "agentsPanelBackground": "#191a1b",
+            "agentsPanelBorder": "#2a2b2c",
+            "statusBarBackground": "#191a1b",
+            "statusBarBorder": "#2a2b2c",
+            "statusBarNoFolderBackground": "#191a1b"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 374,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 28,
+            "windowBorder": false,
+            "modernUI": true,
+            "modernUICompact": false,
+            "partBounds": {
+                "activityBar": {
+                    "top": 35,
+                    "left": 3.9955358505249023,
+                    "width": 43.99553680419922,
+                    "height": 671.9866333007812,
+                    "outerEdges": {
+                        "left": true,
+                        "right": false,
+                        "top": true,
+                        "bottom": true
+                    }
+                },
+                "sideBar": {
+                    "top": 35,
+                    "left": 47.99107360839844,
+                    "width": 373.99554443359375,
+                    "height": 671.4174194335938,
+                    "outerEdges": {
+                        "left": false,
+                        "right": false,
+                        "top": true,
+                        "bottom": true
+                    }
+                },
+                "editor": {
+                    "top": 35,
+                    "left": 425.9933166503906,
+                    "width": 253.0022430419922,
+                    "height": 671.4285888671875,
+                    "outerEdges": {
+                        "left": false,
+                        "right": true,
+                        "top": true,
+                        "bottom": true
+                    }
+                }
+            }
+        }
+    }
+}

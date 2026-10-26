@@ -1,0 +1,30 @@
+[2026-07-29 20:00:58.802] [info]  [entry.client] Initial entry: /onboarding/
+[2026-07-29 20:01:00.217] [info]  [CIO] Initializing SDK...
+[2026-07-29 20:01:00.277] [info]  [CIO] SDK initialized successfully
+[2026-07-29 20:01:49.811] [warn]  MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 nunjucks-context-menu-command listeners added. Use emitter.setMaxListeners() to increase limit
+    at _addListener (node:electron/js2c/sandbox_bundle:2:43268)
+    at IpcRenderer.addListener (node:electron/js2c/sandbox_bundle:2:46156)
+    at Object.on (<anonymous>:1066:34)
+    at https://insomnia-app.local/assets/organization._organizationId.project._projectId.workspace.new-L44Qc5tE.js:443:2706
+    at zl (https://insomnia-app.local/assets/Button-C8sA8rsq.js:8:24393)
+    at Bn (https://insomnia-app.local/assets/Button-C8sA8rsq.js:8:42568)
+    at Gd (https://insomnia-app.local/assets/Button-C8sA8rsq.js:8:41377)
+    at mn (https://insomnia-app.local/assets/Button-C8sA8rsq.js:8:40411)
+    at oc (https://insomnia-app.local/assets/Button-C8sA8rsq.js:8:37002)
+    at Vt (https://insomnia-app.local/assets/Button-C8sA8rsq.js:6:3271)
+    at https://insomnia-app.local/assets/Button-C8sA8rsq.js:8:34359
+[2026-07-29 20:04:43.201] [info]  [network] Response succeeded req=req_e341bcbd87174bb29f26fb8d953eb14f status=422
+[2026-07-29 20:05:15.478] [info]  [network] Response succeeded req=req_e341bcbd87174bb29f26fb8d953eb14f status=422
+[2026-07-29 20:05:39.748] [info]  [network] Response succeeded req=req_e341bcbd87174bb29f26fb8d953eb14f status=422
+[2026-07-29 20:05:48.749] [warn]  MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 nunjucks-context-menu-command listeners added. Use emitter.setMaxListeners() to increase limit
+    at _addListener (node:electron/js2c/sandbox_bundle:2:43268)
+    at IpcRenderer.addListener (node:electron/js2c/sandbox_bundle:2:46156)
+    at Object.on (<anonymous>:1066:34)
+    at https://insomnia-app.local/assets/organization._organizationId.project._projectId.workspace.new-L44Qc5tE.js:443:2706
+    at zl (https://insomnia-app.local/assets/Button-C8sA8rsq.js:8:24393)
+    at Bn (https://insomnia-app.local/assets/Button-C8sA8rsq.js:8:42568)
+    at Gd (https://insomnia-app.local/assets/Button-C8sA8rsq.js:8:41377)
+    at mn (https://insomnia-app.local/assets/Button-C8sA8rsq.js:8:40411)
+    at oc (https://insomnia-app.local/assets/Button-C8sA8rsq.js:8:37002)
+    at Vt (https://insomnia-app.local/assets/Button-C8sA8rsq.js:6:3271)
+    at https://insomnia-app.local/assets/Button-C8sA8rsq.js:8:34359

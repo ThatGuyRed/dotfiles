@@ -1,0 +1,24 @@
+{"value":"Preparing request to http://localhost:3000/rentals/states","name":"Text","timestamp":1780209519552}
+{"value":"Current time is 2026-05-31T06:38:39.552Z","name":"Text","timestamp":1780209519552}
+{"value":"Enable automatic URL encoding","name":"Text","timestamp":1780209519552}
+{"value":"Using default HTTP version","name":"Text","timestamp":1780209519562}
+{"value":"Enable timeout of 30000ms","name":"Text","timestamp":1780209519562}
+{"value":"Enable SSL validation","name":"Text","timestamp":1780209519562}
+{"name":"Text","value":"Found bundle for host: 0x3ca40a2dd840 [serially]\n","timestamp":1780209519562}
+{"name":"Text","value":"Can not multiplex, even if we wanted to\n","timestamp":1780209519562}
+{"name":"Text","value":"Re-using existing connection #2 with host localhost\n","timestamp":1780209519562}
+{"name":"Text","value":"Connected to localhost (127.0.0.1) port 3000 (#2)\n","timestamp":1780209519562}
+{"name":"HeaderOut","value":"GET /rentals/states HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: insomnia/12.6.0\r\nAccept: */*\r\n\r\n","timestamp":1780209519562}
+{"name":"Text","value":"Mark bundle as not supporting multiuse\n","timestamp":1780209519566}
+{"name":"HeaderIn","value":"HTTP/1.1 200 OK\r\n","timestamp":1780209519566}
+{"name":"HeaderIn","value":"X-Powered-By: Express\r\n","timestamp":1780209519566}
+{"name":"HeaderIn","value":"Access-Control-Allow-Origin: *\r\n","timestamp":1780209519566}
+{"name":"HeaderIn","value":"Content-Type: application/json; charset=utf-8\r\n","timestamp":1780209519566}
+{"name":"HeaderIn","value":"Content-Length: 46\r\n","timestamp":1780209519566}
+{"name":"HeaderIn","value":"ETag: W/\"2e-HmffPXOWZYAal0egistrpWXdDc0\"\r\n","timestamp":1780209519566}
+{"name":"HeaderIn","value":"Date: Sun, 31 May 2026 06:38:39 GMT\r\n","timestamp":1780209519566}
+{"name":"HeaderIn","value":"Connection: keep-alive\r\n","timestamp":1780209519566}
+{"name":"HeaderIn","value":"Keep-Alive: timeout=5\r\n","timestamp":1780209519566}
+{"name":"HeaderIn","value":"\r\n","timestamp":1780209519566}
+{"name":"Text","value":"Received 46 B chunk","timestamp":1780209519566}
+{"name":"Text","value":"Connection #2 to host localhost left intact\n","timestamp":1780209519566}

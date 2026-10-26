@@ -1,0 +1,16 @@
+2026-09-18 16:02:17.639 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 25ms.
+2026-09-18 16:02:17.853 [warning] Creation of workbench contribution 'workbench.contrib.chatSetup' took 37ms.
+2026-09-18 16:02:17.912 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-09-18 16:02:19.238 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-09-18 16:02:19.502 [info] Started local extension host with pid 20173.
+2026-09-18 16:02:21.316 [info] [AgentHost:renderer] Protocol connection established; clientId=5afcf8c9-aee0-4f00-b7cd-d6784340d727
+2026-09-18 16:02:21.540 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-18 16:02:26.183 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2026-09-18 16:02:26.314 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-09-18 16:02:26.326 [info] [AgentHost] Clearing authentication for resource: https://api.github.com
+2026-09-18 16:02:26.340 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-09-18 16:02:26.366 [info] [AgentHost] Clearing authentication for resource: https://api.github.com/repos
+2026-09-18 16:02:26.699 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-18 16:02:31.298 [info] Auto updating outdated extensions. asvetliakov.vscode-neovim
+2026-09-18 16:02:31.692 [info] Auto updating outdated extensions. asvetliakov.vscode-neovim
+2026-09-18 16:02:31.908 [info] [perf] Render performance baseline is 153ms

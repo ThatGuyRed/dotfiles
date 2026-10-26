@@ -1,0 +1,67 @@
+[2026-05-31 22:14:43.708] [info]  [plugin] Loading bundled plugin @kong/insomnia-plugin-external-vault from @kong/insomnia-plugin-external-vault
+[2026-05-31 22:14:44.057] [info]  [plugin] Loading bundled plugin @kong/insomnia-plugin-ai from @kong/insomnia-plugin-ai
+[2026-05-31 22:14:44.347] [info]  [entry.client] Initial entry: /organization/org_scratchpad/project/proj_scratchpad/workspace/wrk_scratchpad/debug
+[2026-05-31 22:14:45.885] [info]  [plugin] Loading bundled plugin @kong/insomnia-plugin-external-vault from @kong/insomnia-plugin-external-vault
+[2026-05-31 22:14:46.183] [info]  [plugin] Loading bundled plugin @kong/insomnia-plugin-ai from @kong/insomnia-plugin-ai
+[2026-05-31 22:14:47.016] [warn]  You rendered descendant <Routes> (or called `useRoutes()`) at "/organization/org_scratchpad/project/proj_scratchpad/workspace/wrk_scratchpad/debug" (under <Route path="debug">) but the parent route path has no trailing "*". This means if you navigate deeper, the parent won't match anymore and therefore the child routes will never render.
+
+Please change the parent <Route path="debug"> to <Route path="debug/*">.
+[2026-05-31 22:14:47.442] [info]  [CIO] Initializing SDK...
+[2026-05-31 22:14:48.021] [info]  [CIO] SDK initialized successfully
+[2026-05-31 22:14:48.061] [error] Failed to fetch (cdp-eu.customer.io)
+[2026-05-31 22:15:07.788] [warn]  TypeError: Failed to construct 'URL': Invalid URL
+    at U (https://insomnia-app.local/assets/querystring-CGJNKJPA.js:1:1400)
+    at https://insomnia-app.local/assets/organization._organizationId.project._projectId.workspace._workspaceId.debug-CHvFrohH.js:138:1885
+[2026-05-31 22:17:38.103] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=404
+[2026-05-31 22:17:44.107] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=404
+[2026-05-31 22:17:47.099] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=404
+[2026-05-31 22:17:48.128] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=404
+[2026-05-31 22:17:49.334] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=404
+[2026-05-31 22:18:08.939] [warn]  TypeError: Failed to construct 'URL': Invalid URL
+    at U (https://insomnia-app.local/assets/querystring-CGJNKJPA.js:1:1400)
+    at https://insomnia-app.local/assets/organization._organizationId.project._projectId.workspace._workspaceId.debug-CHvFrohH.js:138:1885
+[2026-05-31 22:18:10.585] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=404
+[2026-05-31 22:18:17.816] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=404
+[2026-05-31 22:18:38.463] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=404
+[2026-05-31 22:19:17.945] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=404
+[2026-05-31 22:19:20.297] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=404
+[2026-05-31 22:19:21.272] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=404
+[2026-05-31 22:19:22.047] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=404
+[2026-05-31 22:19:33.538] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=404
+[2026-05-31 22:19:36.865] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=404
+[2026-05-31 22:19:40.955] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=404
+[2026-05-31 22:20:04.357] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=404
+[2026-05-31 22:20:08.526] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=404
+[2026-05-31 22:20:11.979] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=404
+[2026-05-31 22:20:13.232] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=404
+[2026-05-31 22:20:23.853] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=200
+[2026-05-31 22:20:58.431] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=200
+[2026-05-31 22:21:07.959] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=404
+[2026-05-31 22:21:15.764] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=404
+[2026-05-31 22:21:18.255] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=404
+[2026-05-31 22:21:24.626] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=400
+[2026-05-31 22:22:21.324] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=400
+[2026-05-31 22:22:22.879] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=400
+[2026-05-31 22:22:24.058] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=400
+[2026-05-31 22:23:52.685] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=400
+[2026-05-31 22:23:56.536] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=400
+[2026-05-31 22:24:03.868] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=200
+[2026-05-31 22:26:59.009] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=200
+[2026-05-31 22:30:36.059] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=200
+[2026-05-31 22:32:14.211] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=200
+[2026-05-31 22:32:38.750] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=200
+[2026-05-31 22:32:57.291] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=200
+[2026-05-31 22:45:44.371] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=200
+[2026-05-31 22:45:56.415] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=200
+[2026-05-31 22:46:14.936] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=200
+[2026-05-31 22:46:21.264] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=200
+[2026-05-31 22:58:08.285] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=200
+[2026-05-31 22:58:10.310] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=200
+[2026-05-31 22:58:11.289] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=200
+[2026-05-31 22:58:12.085] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=200
+[2026-05-31 22:58:12.687] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=200
+[2026-05-31 22:59:51.037] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=200
+[2026-05-31 23:01:18.201] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=200
+[2026-05-31 23:01:20.121] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=200
+[2026-05-31 23:02:27.599] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=200
+[2026-05-31 23:03:41.409] [info]  [network] Response succeeded req=req_9b37b9affff74aa19f09615e017d1797 status=200

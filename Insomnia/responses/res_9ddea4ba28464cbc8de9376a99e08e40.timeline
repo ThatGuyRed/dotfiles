@@ -1,0 +1,11 @@
+{"value":"Preparing request to http://localhost:3000/ratings/rental/1","name":"Text","timestamp":1780229695884}
+{"value":"Current time is 2026-05-31T12:14:55.884Z","name":"Text","timestamp":1780229695884}
+{"value":"Enable automatic URL encoding","name":"Text","timestamp":1780229695884}
+{"value":"Using default HTTP version","name":"Text","timestamp":1780229695901}
+{"value":"Enable timeout of 30000ms","name":"Text","timestamp":1780229695901}
+{"value":"Enable SSL validation","name":"Text","timestamp":1780229695901}
+{"name":"Text","value":"  Trying 127.0.0.1:3000...\n","timestamp":1780229695904}
+{"name":"Text","value":"Connected to localhost (127.0.0.1) port 3000 (#0)\n","timestamp":1780229695904}
+{"name":"HeaderOut","value":"GET /ratings/rental/1 HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: insomnia/12.6.0\r\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImpvaG5AZ21haWwuY29tIiwiZXhwIjoxNzgwMzAwODA3LCJpYXQiOjE3ODAyMTQ0MDd9.KymtzPr0ssQ2u4Lw7SQ10UnUzytEiI6qHdUhz1EtJOc\r\nAccept: */*\r\n\r\n","timestamp":1780229695904}
+{"name":"Text","value":"Empty reply from server\n","timestamp":1780229695908}
+{"name":"Text","value":"Closing connection 0\n","timestamp":1780229695908}

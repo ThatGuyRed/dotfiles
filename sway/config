@@ -19,7 +19,7 @@ set $term alacritty
 set $menu rofi -show drun
 
 # File browser
-set $filebrowser nemo
+set $filebrowser thunar
 
 ### Output configuration
 #
@@ -28,18 +28,22 @@ set $filebrowser nemo
 
 # Main Display
 #output eDP-1 bg /home/red/Pictures/Wallpapers/enterprise.jpg fill scale 1.3 pos 0 0
-output eDP-1 bg /home/red/Pictures/Wallpapers/enterprise.jpg fill scale 1.3 pos 0 0
+#output eDP-1 bg /home/red/Pictures/Wallpapers/HMS_Barham.jpg fill scale 1.4 pos 0 0
+output eDP-1 bg /home/red/Pictures/Wallpapers/HMS_Benbow.jpg fill scale 1.4 pos 0 0
+#output eDP-1 bg /home/red/Pictures/Wallpapers/uss_washington_1.jpg fill scale 1.4 pos 0 0
 
 
 # HDMI Out
 # Top
-output HDMI-A-1 scale 1.3 pos 0 -830 bg /home/red/Pictures/Wallpapers/enterprise.jpg fill
+#output HDMI-A-1 scale 1.3 pos 0 -830 bg /home/red/Pictures/Wallpapers/enterprise.jpg fill
 # Left
 #output HDMI-A-1 scale 1.4 pos -1920 0 transform 90
 #output HDMI-A-1 scale 1.4 pos 1920 0 bg /home/red/Pictures/Wallpapers/enterprise.jpg fill
+output HDMI-A-1 scale 1.3 pos -1476 -100 bg /home/red/Pictures/Wallpapers/hessen.jpg fill
 
 # DisplayPort through USB-C
-output DP-1 scale 1.3 pos -830 -270 transform 90 bg /home/red/Pictures/Wallpapers/enterprise.jpg fill
+#output DP-1 scale 1.3 pos -830 -270 transform 90 bg /home/red/Pictures/Wallpapers/enterprise.jpg fill
+output DP-1 scale 1.3 pos -1476 -100 bg /home/red/Pictures/Wallpapers/hessen.jpg fill
  
 
 
@@ -98,7 +102,9 @@ output DP-1 scale 1.3 pos -830 -270 transform 90 bg /home/red/Pictures/Wallpaper
     # Start file browser
     bindsym $mod+e exec $filebrowser
     #bindsym $mod+w exec ~/.config/scripts/yazi.sh
-    bindsym $mod+w exec rofi -show file-browser-extended -file-browser-dir ~/Documents/sync/QUT/2026\ Semester\ 1/
+    #bindsym $mod+w exec rofi -show file-browser-extended -file-browser-dir ~/Documents/sync/QUT/2026\ Semester\ 1/
+    bindsym $mod+w exec alacritty -T Finder -e ~/.config/scripts/fzd.sh
+    
     # Start web browser
     bindsym $mod+i exec zen-browser
     bindsym $mod+o exec obsidian
@@ -108,6 +114,11 @@ output DP-1 scale 1.3 pos -830 -270 transform 90 bg /home/red/Pictures/Wallpaper
 
     # Toggle waybar
     bindsym $mod+u exec pkill waybar || waybar
+
+    # MPC
+    bindsym $mod+space exec mpc toggle
+    bindsym $mod+period exec mpc next
+    bindsym $mod+comma exec mpc prev
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
@@ -121,12 +132,16 @@ output DP-1 scale 1.3 pos -830 -270 transform 90 bg /home/red/Pictures/Wallpaper
     
     # Disable touchpad
     bindsym $mod+t exec swaymsg input type:touchpad events toggle enabled disabled
+
+    # Disable internal keyboard
+    bindsym $mod+y exec swaymsg input 1:1:AT_Translated_Set_2_keyboard events toggle enabled disabled
+
     # Reload the configuration file
     #bindsym $mod+Shift+c reload
 
     # Exit sway (logs you out of your Wayland session)
     #bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
-#
+# 
 # Moving around:
 #
     # Move your focus around
@@ -198,10 +213,19 @@ output DP-1 scale 1.3 pos -830 -270 transform 90 bg /home/red/Pictures/Wallpaper
     bindsym $mod+Shift+space floating toggle
 
     # Swap focus between the tiling area and the floating area
-    bindsym $mod+space focus mode_toggle
+    ##bindsym $mod+space focus mode_toggle
 
     # Move focus to the parent container
     bindsym $mod+g focus parent
+
+#
+# Mouse
+#
+input <pointer> {
+    accel_profile flat
+    pointer_accel 1.0
+}
+
 #
 # Scratchpad:
 #
@@ -291,6 +315,7 @@ exec_always clipse -listen
 exec_always dunst
 exec_always brightnessctl set 35%
 exec_always mpd
+exec_always /usr/lib/hyprpolkitagent/hyprpolkitagent
 
 #
 # Status Bar:
@@ -327,7 +352,7 @@ set $white 	#ffffff
 default_border pixel 1
 
 # Gaps 
-gaps inner 1
+gaps inner 0
 
 #
 # Border colour
@@ -342,19 +367,24 @@ client.focused	$prussian	$gold	$white	$white
 set $opacity 0.90
 set $opacity2 0.95
 set $opacity3 0.99
-for_window [app_id="Alacritty"] opacity $opacity
+for_window [app_id="Alacritty"] opacity 0.95
 for_window [app_id="foot"] opacity $opacity
 for_window [app_id="org.pulseaudio.pavucontrol"] opacity $opacity2
 for_window [app_id="obsidian"] opacity $opacity3
 
 # Waybar applets
-for_window [title="Network Manager"] floating enable, resize set 570 px 380 px, move position 938 px -1 px, border none
-for_window [title="Calcurse"] floating enable, resize set 700 px 480 px, move position 778 px -1 px, border none
-for_window [title="Volume Control"] floating enable, resize set 400 px 800 px, move position 0 px -1 px, border none
-for_window [title="Bluetooth Control"] floating enable, resize set 900 px 140 px, move position 578 px -1 px, border none
-for_window [title="Yazi Sidebar"] floating enable, resize set 450 px 800 px, move position -3 px -1 px, border none
-for_window [title="btop"] floating enable, resize set 950 px 600 px, move position 525 px -1 px, border none
+for_window [title="Network Manager"] floating enable, resize set 570 px 380 px, move position 804 px -1 px, border none
+for_window [title="Calcurse"] floating enable, resize set 700 px 480 px, move position 676 px -1 px, border none
+
+# Audio
+for_window [title="Volume Control"] floating enable, resize set 400 px 740 px, move position 0 px -1 px, border none
+for_window [title="JamesDSP"] floating enable, resize set 550 px 500 px, move position 0 px -1 px, border none
 for_window [title="Music Player"] floating enable, resize set 500 px 400 px, move position 0 px -1 px
+
+for_window [title="Bluetooth Control"] floating enable, resize set 900 px 140 px, move position 470 px -1 px, border none
+for_window [title="Yazi Sidebar"] floating enable, resize set 450 px 800 px, move position -3 px -1 px, border none
+for_window [title="btop"] floating enable, resize set 950 px 600 px, move position 425 px -1 px, border none
+for_window [title="Finder"] floating enable, resize set 1100 px 600 px, move position 150 px 50 px, border none
 
 
 

@@ -8,7 +8,7 @@ cd $WORKING_DIR
 
 #CMD="nvim ${WORKING_DIR}"
 # Source tmux config
-tmux source-file ~/.config/tmux.conf
+
 
 # Create a new session and name it
 tmux new-session -d -x- -y-
@@ -25,4 +25,5 @@ tmux send-keys -t 0 "nvim $QUOTE$WORKING_DIR$QUOTE" C-m
 tmux select-pane -t 0
 
 # Attach to the created session
+tmux source-file ~/.config/tmux.conf
 tmux attach-session

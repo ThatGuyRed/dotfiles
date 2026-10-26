@@ -1,0 +1,187 @@
+2026-09-18 16:05:42.789 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 36ms.
+2026-09-18 16:05:43.005 [warning] Creation of workbench contribution 'workbench.contrib.remoteStatusIndicator' took 21ms.
+2026-09-18 16:05:43.079 [warning] Creation of workbench contribution 'workbench.contrib.chatSpeechToTextInit' took 21ms.
+2026-09-18 16:05:43.141 [warning] Creation of workbench contribution 'workbench.contrib.chatSetup' took 36ms.
+2026-09-18 16:05:43.237 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-09-18 16:05:43.281 [warning] Creation of workbench contribution 'workbench.contrib.agentHostPrewarm' took 32ms.
+2026-09-18 16:05:45.072 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey=undefined conversationKey=undefined modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-09-18 16:05:47.654 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/MmUzYzQ1MDctYWY5NC00MWM3LTk3YzMtMTI5M2NhNTJlYjVh" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-09-18 16:05:47.835 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-09-18 16:05:48.106 [info] Started local extension host with pid 25727.
+2026-09-18 16:05:48.233 [info] [AgentHost:renderer] Protocol connection established; clientId=73b1737f-29f0-46bb-9145-36c56b35d0e0
+2026-09-18 16:05:48.461 [info] Started initializing default profile extensions in extensions installation folder. file:///home/red/.vscode/extensions
+2026-09-18 16:05:49.563 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-18 16:05:49.608 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/red/.vscode/extensions
+2026-09-18 16:05:49.685 [error] Extension 'github.copilot-chat' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): agentSessionsWorkspace
+agentsWindowConfiguration
+chatDebug
+chatHooks
+extensionsAny
+newSymbolNamesProvider
+interactive
+codeActionAI
+activeComment
+commentReveal
+contribCommentThreadAdditionalMenu
+contribCommentsViewThreadMenus
+contribChatEditorInlineGutterMenu
+documentFiltersExclusive
+embeddings
+findTextInFiles
+findTextInFiles2
+languageModelToolSupportsModel
+findFiles2
+textSearchProvider
+terminalDataWriteEvent
+terminalExecuteCommandEvent
+terminalSelection
+terminalQuickFixProvider
+mappedEditsProvider
+aiRelatedInformation
+aiSettingsSearch
+chatParticipantAdditions
+defaultChatParticipant
+contribSourceControlInputBoxMenu
+authLearnMore
+testObserver
+aiTextSearchProvider
+chatParticipantPrivate
+chatProvider
+contribDebugCreateConfiguration
+chatReferenceDiagnostic
+textSearchProvider2
+chatReferenceBinaryData
+languageModelSystem
+languageModelCapabilities
+languageModelPricing
+inlineCompletionsAdditions
+chatStatusItem
+chatInputNotification
+taskProblemMatcherStatus
+contribLanguageModelToolSets
+textDocumentChangeReason
+resolvers
+taskExecutionTerminal
+dataChannels
+languageModelThinkingPart
+chatSessionsProvider
+devDeviceId
+contribEditorContentMenu
+chatPromptFiles
+mcpServerDefinitions
+tabInputMultiDiff
+workspaceTrust
+environmentPower
+terminalTitle
+toolInvocationApproveCombination
+chatSessionCustomizationProvider
+product.json (WINS): agentSessionsWorkspace
+interactive
+terminalDataWriteEvent
+terminalExecuteCommandEvent
+terminalSelection
+terminalQuickFixProvider
+chatParticipantAdditions
+defaultChatParticipant
+embeddings
+chatProvider
+mappedEditsProvider
+aiRelatedInformation
+aiSettingsSearch
+codeActionAI
+findTextInFiles
+findTextInFiles2
+textSearchProvider
+textSearchProvider2
+activeComment
+commentReveal
+contribSourceControlInputBoxMenu
+contribCommentEditorActionsMenu
+contribCommentThreadAdditionalMenu
+contribCommentsViewThreadMenus
+contribChatEditorInlineGutterMenu
+extensionAffinity
+newSymbolNamesProvider
+findFiles2
+chatReferenceDiagnostic
+extensionsAny
+authLearnMore
+testObserver
+aiTextSearchProvider
+documentFiltersExclusive
+chatParticipantPrivate
+contribDebugCreateConfiguration
+inlineCompletionsAdditions
+chatReferenceBinaryData
+languageModelSystem
+languageModelCapabilities
+languageModelThinkingPart
+languageModelToolSupportsModel
+chatStatusItem
+taskProblemMatcherStatus
+contribLanguageModelToolSets
+textDocumentChangeReason
+resolvers
+taskExecutionTerminal
+dataChannels
+chatSessionsProvider
+chatSessionCustomizationProvider
+devDeviceId
+contribEditorContentMenu
+tokenInformation
+toolInvocationApproveCombination
+chatPromptFiles
+mcpServerDefinitions
+tabInputMultiDiff
+workspaceTrust
+chatHooks
+chatDebug
+environmentPower
+terminalTitle
+languageModelPricing
+chatInputNotification
+DELTA: agentsWindowConfiguration
+2026-09-18 16:05:53.882 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2026-09-18 16:05:54.740 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-18 16:05:55.752 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/MmUzYzQ1MDctYWY5NC00MWM3LTk3YzMtMTI5M2NhNTJlYjVh" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-09-18 16:05:56.047 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-09-18 16:05:56.794 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/MmUzYzQ1MDctYWY5NC00MWM3LTk3YzMtMTI5M2NhNTJlYjVh" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-09-18 16:05:57.765 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-09-18 16:05:57.776 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-09-18 16:05:57.778 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-09-18 16:05:57.780 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-09-18 16:05:57.782 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-09-18 16:05:57.784 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-09-18 16:05:57.786 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-09-18 16:05:57.788 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-09-18 16:05:57.790 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-09-18 16:05:57.792 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-09-18 16:05:57.802 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-09-18 16:05:57.804 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-09-18 16:05:57.805 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-09-18 16:05:57.831 [info] [AgentHost] Clearing authentication for resource: https://api.github.com
+2026-09-18 16:05:58.808 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-09-18 16:05:58.814 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-09-18 16:05:58.816 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-09-18 16:05:58.818 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-09-18 16:05:58.821 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-09-18 16:05:58.824 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-09-18 16:05:58.826 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-09-18 16:05:58.828 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-09-18 16:05:58.830 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-09-18 16:05:58.833 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-09-18 16:05:58.835 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-09-18 16:05:58.837 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-09-18 16:05:58.839 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-09-18 16:05:58.886 [info] [AgentHost] Clearing authentication for resource: https://api.github.com/repos
+2026-09-18 16:06:01.465 [info] [perf] Render performance baseline is 166ms
+2026-09-18 16:06:07.809 [info] [RemoteAgentHostProtocol] Mirroring configuration to host root config from DEFAULT: byokModelsEnabled=true (chat.agentHost.byokModels.enabled)
+2026-09-18 16:06:08.730 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-09-18 16:06:08.732 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-09-18 16:06:08.735 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-09-18 16:06:08.740 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-09-18 16:06:08.741 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-09-18 16:06:08.742 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-09-18 16:06:10.511 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/MmUzYzQ1MDctYWY5NC00MWM3LTk3YzMtMTI5M2NhNTJlYjVh" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-09-18 16:06:20.280 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/MmUzYzQ1MDctYWY5NC00MWM3LTk3YzMtMTI5M2NhNTJlYjVh" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"

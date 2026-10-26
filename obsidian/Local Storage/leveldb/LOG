@@ -1,0 +1,7 @@
+2026/09/30-12:56:09.336 5d7f Reusing MANIFEST /home/red/.config/obsidian/Local Storage/leveldb/MANIFEST-000001
+2026/09/30-12:56:09.370 5d7f Recovering log #470
+2026/09/30-12:56:09.373 5d7f (ignoring error) /home/red/.config/obsidian/Local Storage/leveldb/000470.log: dropping 1027 bytes; Corruption: missing start of fragmented record(2)
+2026/09/30-12:56:09.373 5d7f Reusing old log /home/red/.config/obsidian/Local Storage/leveldb/000470.log 
+2026/09/30-12:57:09.379 5d93 Level-0 table #475: started
+2026/09/30-12:57:09.386 5d93 Level-0 table #475: 17056 bytes OK
+2026/09/30-12:57:09.389 5d93 Delete type=0 #470

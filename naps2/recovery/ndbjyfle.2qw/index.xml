@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecoveryIndex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Version>1</Version>
+  <Images>
+    <RecoveryIndexImage>
+      <FileName>szf3j3d4.ywr.00001.jpg</FileName>
+      <TransformList />
+      <HighQuality>false</HighQuality>
+      <PageSize>210x297 mm</PageSize>
+    </RecoveryIndexImage>
+    <RecoveryIndexImage>
+      <FileName>szf3j3d4.ywr.00002.jpg</FileName>
+      <TransformList />
+      <HighQuality>false</HighQuality>
+      <PageSize>210x297 mm</PageSize>
+    </RecoveryIndexImage>
+    <RecoveryIndexImage>
+      <FileName>szf3j3d4.ywr.00003.jpg</FileName>
+      <TransformList />
+      <HighQuality>false</HighQuality>
+      <PageSize>210x297 mm</PageSize>
+    </RecoveryIndexImage>
+  </Images>
+</RecoveryIndex>

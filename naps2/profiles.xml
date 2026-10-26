@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfScanProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ScanProfile>
+    <Version>2</Version>
+    <Device>
+      <ID>00000000-0000-1000-8000-0018bf04906e</ID>
+      <Name>Canon G3020 series (192.168.200.141)</Name>
+      <IconUri>http://c99071400000.local./icon/printer_icon.png</IconUri>
+      <ConnectionUri>https://[fe80::dec2:c9ff:fe99:714%3]:443/eSCL</ConnectionUri>
+    </Device>
+    <Caps>
+      <PaperSources>Glass</PaperSources>
+      <FeederCheck>true</FeederCheck>
+      <Glass>
+        <ScanArea>8.5x11.69333 in</ScanArea>
+        <Resolutions>75,100,150,200,300,600</Resolutions>
+      </Glass>
+      <Feeder />
+      <Duplex />
+    </Caps>
+    <DriverName>escl</DriverName>
+    <DisplayName>Canon G3020 series (192.168.200.141)</DisplayName>
+    <IconID>0</IconID>
+    <MaxQuality>false</MaxQuality>
+    <IsDefault>true</IsDefault>
+    <UseNativeUI>false</UseNativeUI>
+    <AfterScanScale>OneToOne</AfterScanScale>
+    <Brightness>0</Brightness>
+    <Contrast>0</Contrast>
+    <BitDepth>C24Bit</BitDepth>
+    <PageAlign>Right</PageAlign>
+    <PageSize>A4</PageSize>
+    <CustomPageSizeName xsi:nil="true" />
+    <CustomPageSize xsi:nil="true" />
+    <Resolution>Dpi150</Resolution>
+    <PaperSource>Glass</PaperSource>
+    <EnableAutoSave>false</EnableAutoSave>
+    <AutoSaveSettings xsi:nil="true" />
+    <Quality>75</Quality>
+    <AutoDeskew>false</AutoDeskew>
+    <RotateDegrees>0</RotateDegrees>
+    <BrightnessContrastAfterScan>false</BrightnessContrastAfterScan>
+    <ForcePageSize>false</ForcePageSize>
+    <ForcePageSizeCrop>false</ForcePageSizeCrop>
+    <TwainImpl>Default</TwainImpl>
+    <TwainProgress>false</TwainProgress>
+    <ExcludeBlankPages>false</ExcludeBlankPages>
+    <BlankPageWhiteThreshold>70</BlankPageWhiteThreshold>
+    <BlankPageCoverageThreshold>25</BlankPageCoverageThreshold>
+    <WiaOffsetWidth>false</WiaOffsetWidth>
+    <WiaRetryOnFailure>false</WiaRetryOnFailure>
+    <WiaDelayBetweenScans>false</WiaDelayBetweenScans>
+    <WiaDelayBetweenScansSeconds>2</WiaDelayBetweenScansSeconds>
+    <WiaVersion>Default</WiaVersion>
+    <FlipDuplexedPages>false</FlipDuplexedPages>
+    <KeyValueOptions xsi:nil="true" />
+  </ScanProfile>
+</ArrayOfScanProfile>

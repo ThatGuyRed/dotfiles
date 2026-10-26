@@ -1,0 +1,8 @@
+2026-09-18 16:05:48.348 [info] Started initializing default profile extensions in extensions installation folder. file:///home/red/.vscode/extensions
+2026-09-18 16:05:49.625 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/red/.vscode/extensions
+2026-09-18 16:06:23.606 [info] Getting Manifest... moozzyk.arduino
+2026-09-18 16:06:25.472 [info] Installing extension: moozzyk.arduino {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/red/.vscode/extensions/extensions.json","path":"/home/red/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false,"isApplicationScoped":false,"productVersion":{"version":"1.136.2","date":"2026-09-04T21:40:42Z"}}
+2026-09-18 16:06:29.880 [info] Extension signature verification result for moozzyk.arduino: Success. Executed: true. Duration: 18ms.
+2026-09-18 16:06:29.992 [info] Extracted extension to file:///home/red/.vscode/extensions/moozzyk.arduino-0.0.4: moozzyk.arduino
+2026-09-18 16:06:30.011 [info] Renamed to /home/red/.vscode/extensions/moozzyk.arduino-0.0.4
+2026-09-18 16:06:30.061 [info] Extension installed successfully: moozzyk.arduino vscode-userdata:/home/red/.vscode/extensions/extensions.json

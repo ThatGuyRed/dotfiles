@@ -1,0 +1,18 @@
+Error in /home/red/.config/nvim/init.lua:
+E5113: Lua chunk: /home/red/.config/nvim/init.lua:4: module 'bufferline' not found:
+	no field package.preload['bufferline']
+	cache_loader: module 'bufferline' not found
+	cache_loader_lib: module 'bufferline' not found
+	no file './bufferline.lua'
+	no file '/usr/share/luajit-2.1/bufferline.lua'
+	no file '/usr/local/share/lua/5.1/bufferline.lua'
+	no file '/usr/local/share/lua/5.1/bufferline/init.lua'
+	no file '/usr/share/lua/5.1/bufferline.lua'
+	no file '/usr/share/lua/5.1/bufferline/init.lua'
+	no file './bufferline.so'
+	no file '/usr/local/lib/lua/5.1/bufferline.so'
+	no file '/usr/lib/lua/5.1/bufferline.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+	[C]: in function 'require'
+	/home/red/.config/nvim/init.lua:4: in main chunk

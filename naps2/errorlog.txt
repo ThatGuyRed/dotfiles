@@ -1,0 +1,59 @@
+2026-09-20 14:31:26.6139 26202 An error occurred that caused the task to terminate. System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> Interop+OpenSsl+SslException: SSL Handshake failed with OpenSSL error - SSL_ERROR_SSL.
+ ---> Interop+Crypto+OpenSslCryptographicException: error:0A000410:SSL routines::ssl/tls alert handshake failure
+   --- End of inner exception stack trace ---
+   at Interop.OpenSsl.DoSslHandshake(SafeSslHandle context, ReadOnlySpan`1 input, ProtocolToken& token)
+   at System.Net.Security.SslStreamPal.HandshakeInternal(SafeDeleteSslContext& context, ReadOnlySpan`1 inputBuffer, Int32& consumed, SslAuthenticationOptions sslAuthenticationOptions)
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsyncCore(Stream stream, SslClientAuthenticationOptions sslOptions, CancellationToken cancellationToken) in C:\Projects\StandardSocketsHttpHandler\StandardSocketsHttpHandler\Net\Http\SocketsHttpHandler\ConnectHelper.cs:line 183
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsyncCore(Stream stream, SslClientAuthenticationOptions sslOptions, CancellationToken cancellationToken) in C:\Projects\StandardSocketsHttpHandler\StandardSocketsHttpHandler\Net\Http\SocketsHttpHandler\ConnectHelper.cs:line 194
+   at System.Net.Http.HttpConnectionPool.CreateConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken) in C:\Projects\StandardSocketsHttpHandler\StandardSocketsHttpHandler\Net\Http\SocketsHttpHandler\HttpConnectionPool.cs:line 412
+   at System.Net.Http.HttpConnectionPool.GetConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken) in C:\Projects\StandardSocketsHttpHandler\StandardSocketsHttpHandler\Net\Http\SocketsHttpHandler\HttpConnectionPool.cs:line 192
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken) in C:\Projects\StandardSocketsHttpHandler\StandardSocketsHttpHandler\Net\Http\SocketsHttpHandler\HttpConnectionPool.cs:line 292
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken) in C:\Projects\StandardSocketsHttpHandler\StandardSocketsHttpHandler\Net\Http\SocketsHttpHandler\RedirectHandler.cs:line 32
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NAPS2.Escl.Client.EsclClient.WithHttpFallback[T](Func`1 urlFunc, Func`2 func)
+   at NAPS2.Escl.Client.EsclClient.DoRequest(String endpoint)
+   at NAPS2.Escl.Client.EsclClient.GetCapabilities()
+2026-09-20 14:31:53.8589 26202 An error occurred that caused the task to terminate. System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> Interop+OpenSsl+SslException: SSL Handshake failed with OpenSSL error - SSL_ERROR_SSL.
+ ---> Interop+Crypto+OpenSslCryptographicException: error:0A000410:SSL routines::ssl/tls alert handshake failure
+   --- End of inner exception stack trace ---
+   at Interop.OpenSsl.DoSslHandshake(SafeSslHandle context, ReadOnlySpan`1 input, ProtocolToken& token)
+   at System.Net.Security.SslStreamPal.HandshakeInternal(SafeDeleteSslContext& context, ReadOnlySpan`1 inputBuffer, Int32& consumed, SslAuthenticationOptions sslAuthenticationOptions)
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsyncCore(Stream stream, SslClientAuthenticationOptions sslOptions, CancellationToken cancellationToken) in C:\Projects\StandardSocketsHttpHandler\StandardSocketsHttpHandler\Net\Http\SocketsHttpHandler\ConnectHelper.cs:line 183
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsyncCore(Stream stream, SslClientAuthenticationOptions sslOptions, CancellationToken cancellationToken) in C:\Projects\StandardSocketsHttpHandler\StandardSocketsHttpHandler\Net\Http\SocketsHttpHandler\ConnectHelper.cs:line 194
+   at System.Net.Http.HttpConnectionPool.CreateConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken) in C:\Projects\StandardSocketsHttpHandler\StandardSocketsHttpHandler\Net\Http\SocketsHttpHandler\HttpConnectionPool.cs:line 412
+   at System.Net.Http.HttpConnectionPool.GetConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken) in C:\Projects\StandardSocketsHttpHandler\StandardSocketsHttpHandler\Net\Http\SocketsHttpHandler\HttpConnectionPool.cs:line 192
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken) in C:\Projects\StandardSocketsHttpHandler\StandardSocketsHttpHandler\Net\Http\SocketsHttpHandler\HttpConnectionPool.cs:line 292
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken) in C:\Projects\StandardSocketsHttpHandler\StandardSocketsHttpHandler\Net\Http\SocketsHttpHandler\RedirectHandler.cs:line 32
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NAPS2.Escl.Client.EsclClient.WithHttpFallback[T](Func`1 urlFunc, Func`2 func)
+   at NAPS2.Escl.Client.EsclClient.DoRequest(String endpoint)
+   at NAPS2.Escl.Client.EsclClient.GetCapabilities()
+2026-09-20 14:34:02.7693 26202 An error occurred that caused the task to terminate. System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.Security.Authentication.AuthenticationException: Authentication failed, see inner exception.
+ ---> Interop+OpenSsl+SslException: SSL Handshake failed with OpenSSL error - SSL_ERROR_SSL.
+ ---> Interop+Crypto+OpenSslCryptographicException: error:0A000410:SSL routines::ssl/tls alert handshake failure
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStreamPal.HandshakeInternal(SafeDeleteSslContext& context, ReadOnlySpan`1 inputBuffer, Int32& consumed, SslAuthenticationOptions sslAuthenticationOptions)
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsyncCore(Stream stream, SslClientAuthenticationOptions sslOptions, CancellationToken cancellationToken) in C:\Projects\StandardSocketsHttpHandler\StandardSocketsHttpHandler\Net\Http\SocketsHttpHandler\ConnectHelper.cs:line 183
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsyncCore(Stream stream, SslClientAuthenticationOptions sslOptions, CancellationToken cancellationToken) in C:\Projects\StandardSocketsHttpHandler\StandardSocketsHttpHandler\Net\Http\SocketsHttpHandler\ConnectHelper.cs:line 194
+   at System.Net.Http.HttpConnectionPool.CreateConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken) in C:\Projects\StandardSocketsHttpHandler\StandardSocketsHttpHandler\Net\Http\SocketsHttpHandler\HttpConnectionPool.cs:line 412
+   at System.Net.Http.HttpConnectionPool.GetConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken) in C:\Projects\StandardSocketsHttpHandler\StandardSocketsHttpHandler\Net\Http\SocketsHttpHandler\HttpConnectionPool.cs:line 192
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken) in C:\Projects\StandardSocketsHttpHandler\StandardSocketsHttpHandler\Net\Http\SocketsHttpHandler\HttpConnectionPool.cs:line 292
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken) in C:\Projects\StandardSocketsHttpHandler\StandardSocketsHttpHandler\Net\Http\SocketsHttpHandler\RedirectHandler.cs:line 32
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NAPS2.Escl.Client.EsclClient.WithHttpFallback[T](Func`1 urlFunc, Func`2 func)
+   at NAPS2.Escl.Client.EsclClient.DoRequest(String endpoint)
+   at NAPS2.Escl.Client.EsclClient.GetCapabilities()

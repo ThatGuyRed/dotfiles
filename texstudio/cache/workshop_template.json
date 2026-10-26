@@ -1,0 +1,83 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+    ],
+    "childdocs": [
+    ],
+    "filename": "/home/red/Documents/sync/EESS/workshop_template.tex",
+    "labels": [
+        "fig",
+        "fig",
+        "fig",
+        "fig",
+        "fig",
+        "fig",
+        "fig:",
+        "fig"
+    ],
+    "modified": "Sun Aug 16 19:04:01 2026",
+    "packages": [
+        "#minted",
+        "#listings",
+        "a4paper#latex-document",
+        "a4paper#tex",
+        "#graphicx",
+        "#subcaption",
+        "fontsize=12pt#fontsize",
+        "#fancyhdr",
+        "#graphicx",
+        "#amsmath",
+        "x11names#xcolor",
+        "a4paper, total={175mm, 262mm}#geometry",
+        "#enumitem",
+        "#sourcecodepro"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "2#Introduction#33",
+        "2#Learning Objectives#37",
+        "2#Apparatus#47",
+        "2#Background#54",
+        "3#QUTy Microcontroller Development Board#56",
+        "3#Key Peripherals#59",
+        "3#Peripheral Multiplexing#79",
+        "3#Libraries in C#99",
+        "3#Basic peripheral operations#112",
+        "3#CPU Interrupts#134",
+        "3#Timers#162",
+        "4#Basic Operations#163",
+        "4#Timer prescalers#193",
+        "4#PWM output using TCA0#247",
+        "3#Analog-to-Digital Converter (ADC)#261",
+        "2#References#370",
+        "2#Appendix#372"
+    ],
+    "usercommands": [
+        [
+            "\\headrulewidth",
+            "\\headrulewidth"
+        ],
+        [
+            "\\familydefault",
+            "\\familydefault"
+        ],
+        [
+            "\\thesection",
+            "\\thesection"
+        ],
+        [
+            "",
+            "%color%codebg"
+        ],
+        [
+            "\\code",
+            "\\code{}"
+        ],
+        [
+            "",
+            "%color%light-gray"
+        ]
+    ]
+}

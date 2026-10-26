@@ -1,0 +1,2 @@
+{Intel/Mesa Intel(R) UHD Graphics 620 (KBL GT2)/4.6 (Core Profile) Mesa 25.3.5-arch1.1}=SUPPORTED
+{Intel/Mesa Intel(R) UHD Graphics 620 (KBL GT2)/4.6 (Core Profile) Mesa 26.0.2-arch1.1}=SUPPORTED

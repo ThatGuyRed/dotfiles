@@ -1,0 +1,18 @@
+{"value":"Preparing request to https://localhost:3000/rentals/search","name":"Text","timestamp":1780232280537}
+{"value":"Current time is 2026-05-31T12:58:00.537Z","name":"Text","timestamp":1780232280537}
+{"value":"Enable automatic URL encoding","name":"Text","timestamp":1780232280537}
+{"value":"Using default HTTP version","name":"Text","timestamp":1780232280549}
+{"value":"Enable timeout of 30000ms","name":"Text","timestamp":1780232280549}
+{"value":"Disable SSL validation","name":"Text","timestamp":1780232280549}
+{"name":"Text","value":"Too old connection (699 seconds idle), disconnect it\n","timestamp":1780232280549}
+{"name":"Text","value":"Connection 31 seems to be dead\n","timestamp":1780232280549}
+{"name":"Text","value":"Closing connection 31\n","timestamp":1780232280549}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1780232280549}
+{"name":"Text","value":"TLSv1.3 (OUT), TLS alert, close notify (256):\n","timestamp":1780232280549}
+{"name":"Text","value":"Hostname in DNS cache was stale, zapped\n","timestamp":1780232280549}
+{"name":"Text","value":"  Trying 127.0.0.1:3000...\n","timestamp":1780232280549}
+{"name":"Text","value":"connect to 127.0.0.1 port 3000 failed: Connection refused\n","timestamp":1780232280549}
+{"name":"Text","value":"  Trying [::1]:3000...\n","timestamp":1780232280549}
+{"name":"Text","value":"connect to ::1 port 3000 failed: Connection refused\n","timestamp":1780232280549}
+{"name":"Text","value":"Failed to connect to localhost port 3000 after 0 ms: Couldn't connect to server\n","timestamp":1780232280549}
+{"name":"Text","value":"Closing connection 32\n","timestamp":1780232280549}

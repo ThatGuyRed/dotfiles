@@ -1,0 +1,24 @@
+{"value":"Preparing request to http://localhost:3000/ratings/rental/1","name":"Text","timestamp":1780214812285}
+{"value":"Current time is 2026-05-31T08:06:52.285Z","name":"Text","timestamp":1780214812285}
+{"value":"Enable automatic URL encoding","name":"Text","timestamp":1780214812285}
+{"value":"Using default HTTP version","name":"Text","timestamp":1780214812321}
+{"value":"Enable timeout of 30000ms","name":"Text","timestamp":1780214812321}
+{"value":"Enable SSL validation","name":"Text","timestamp":1780214812321}
+{"name":"Text","value":"Hostname in DNS cache was stale, zapped\n","timestamp":1780214812321}
+{"name":"Text","value":"  Trying 127.0.0.1:3000...\n","timestamp":1780214812321}
+{"name":"Text","value":"Connected to localhost (127.0.0.1) port 3000 (#46)\n","timestamp":1780214812322}
+{"name":"HeaderOut","value":"GET /ratings/rental/1 HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: insomnia/12.6.0\r\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImpvaG5AZ21haWwuY29tIiwiZXhwIjoxNzgwMzAwODA3LCJpYXQiOjE3ODAyMTQ0MDd9.KymtzPr0ssQ2u4Lw7SQ10UnUzytEiI6qHdUhz1EtJOc\r\nAccept: */*\r\n\r\n","timestamp":1780214812322}
+{"name":"Text","value":"Mark bundle as not supporting multiuse\n","timestamp":1780214812347}
+{"name":"HeaderIn","value":"HTTP/1.1 500 Internal Server Error\r\n","timestamp":1780214812347}
+{"name":"HeaderIn","value":"X-Powered-By: Express\r\n","timestamp":1780214812347}
+{"name":"HeaderIn","value":"Access-Control-Allow-Origin: *\r\n","timestamp":1780214812347}
+{"name":"HeaderIn","value":"Content-Security-Policy: default-src 'none'\r\n","timestamp":1780214812347}
+{"name":"HeaderIn","value":"X-Content-Type-Options: nosniff\r\n","timestamp":1780214812347}
+{"name":"HeaderIn","value":"Content-Type: text/html; charset=utf-8\r\n","timestamp":1780214812347}
+{"name":"HeaderIn","value":"Content-Length: 1828\r\n","timestamp":1780214812347}
+{"name":"HeaderIn","value":"Date: Sun, 31 May 2026 08:06:52 GMT\r\n","timestamp":1780214812347}
+{"name":"HeaderIn","value":"Connection: keep-alive\r\n","timestamp":1780214812347}
+{"name":"HeaderIn","value":"Keep-Alive: timeout=5\r\n","timestamp":1780214812347}
+{"name":"HeaderIn","value":"\r\n","timestamp":1780214812347}
+{"name":"Text","value":"Received 1828 B chunk","timestamp":1780214812347}
+{"name":"Text","value":"Connection #46 to host localhost left intact\n","timestamp":1780214812347}

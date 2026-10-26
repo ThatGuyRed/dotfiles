@@ -1,0 +1,14 @@
+2026-08-19 16:06:32.097 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 25ms.
+2026-08-19 16:06:32.236 [warning] Creation of workbench contribution 'workbench.contrib.chatSetup' took 21ms.
+2026-08-19 16:06:33.215 [info] Started local extension host with pid 32100.
+2026-08-19 16:06:33.379 [error] [vscode.mermaid-markdown-features]: Extension 'vscode.mermaid-markdown-features' CANNOT use 'legacyToolReferenceFullNames' without the 'chatParticipantPrivate' API proposal enabled
+2026-08-19 16:06:34.748 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-08-19 16:06:38.806 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2026-08-19 16:06:39.885 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-08-19 16:06:41.788 [info] [perf] Render performance baseline is 196ms
+2026-08-19 16:07:34.804 [info] Started local extension host with pid 1030.
+2026-08-19 16:07:35.136 [error] [vscode.mermaid-markdown-features]: Extension 'vscode.mermaid-markdown-features' CANNOT use 'legacyToolReferenceFullNames' without the 'chatParticipantPrivate' API proposal enabled
+2026-08-19 16:07:37.278 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-08-19 16:07:39.116 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2026-08-19 16:07:42.338 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-08-19 16:07:46.123 [info] [perf] Render performance baseline is 132ms

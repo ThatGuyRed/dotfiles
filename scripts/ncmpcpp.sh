@@ -1,6 +1,6 @@
 #!/bin/bash
 
-isRunning=$(ps h -fC pavucontrol)
+isRunning=$(ps h -fC rmpc)
 
 if [ ${#isRunning} != 0 ]; then
 	pkill rmpc

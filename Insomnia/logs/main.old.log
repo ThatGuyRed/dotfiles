@@ -1,0 +1,1407 @@
+[2026-05-31 22:14:24.377] [info]  Running version 12.6.0
+[2026-05-31 22:14:24.681] [info]  [electron client protocol] successfully set default protocol 'insomnia://'
+[2026-05-31 22:14:24.904] [info]  [fix] Running database repairs
+[2026-05-31 22:14:25.067] [info]  [main] Checking for newer version than 12.6.0
+[2026-05-31 22:14:25.068] [info]  [updater] Using url https://updates.insomnia.rest/builds/check/mac?v=12.6.0&app=com.insomnia.app&channel=stable
+[2026-05-31 22:14:41.011] [info]  [main] Found newer version
+[2026-05-31 22:14:41.019] [info]  [main] Backup found at: /home/red/.config/Insomnia/backups/12.6.0
+[2026-05-31 22:14:41.023] [info]  [git-credentials-migration] Already migrated credentials, skipping migration
+[2026-05-31 22:14:41.154] [info]  [main] Loading https://insomnia-app.local
+[2026-05-31 22:14:41.171] [info]  [main] Registering the hidden window restarting handler
+[2026-05-31 22:14:41.186] [info]  Loading index for: / from: /opt/Insomnia/resources/app.asar/client/index.html
+[2026-05-31 22:14:41.819] [info]  Loading index for: /assets/organization._organizationId.project._projectId-DIPB3Vbg.css from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId-DIPB3Vbg.css
+[2026-05-31 22:14:41.823] [info]  Loading index for: /assets/styles-BQn0iR1t.css from: /opt/Insomnia/resources/app.asar/client/assets/styles-BQn0iR1t.css
+[2026-05-31 22:14:41.825] [info]  Loading index for: /assets/manifest-f09c7240.js from: /opt/Insomnia/resources/app.asar/client/assets/manifest-f09c7240.js
+[2026-05-31 22:14:41.828] [info]  Loading index for: /assets/entry.client-DE_9C0uf.js from: /opt/Insomnia/resources/app.asar/client/assets/entry.client-DE_9C0uf.js
+[2026-05-31 22:14:41.830] [info]  Loading index for: /assets/jsx-runtime-DioqOJdD.js from: /opt/Insomnia/resources/app.asar/client/assets/jsx-runtime-DioqOJdD.js
+[2026-05-31 22:14:41.832] [info]  Loading index for: /assets/index-BcJwbNuM.js from: /opt/Insomnia/resources/app.asar/client/assets/index-BcJwbNuM.js
+[2026-05-31 22:14:41.833] [info]  Loading index for: /assets/toast-notification-BKCCuj0P.js from: /opt/Insomnia/resources/app.asar/client/assets/toast-notification-BKCCuj0P.js
+[2026-05-31 22:14:41.835] [info]  Loading index for: /assets/index-DeFelqtg.js from: /opt/Insomnia/resources/app.asar/client/assets/index-DeFelqtg.js
+[2026-05-31 22:14:41.837] [info]  Loading index for: /assets/organization._organizationId.project._projectId._index-CwOnjDKY.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId._index-CwOnjDKY.js
+[2026-05-31 22:14:41.838] [info]  Loading index for: /assets/index-DKPuaYPF.js from: /opt/Insomnia/resources/app.asar/client/assets/index-DKPuaYPF.js
+[2026-05-31 22:14:41.840] [info]  Loading index for: /assets/index-GCnCL9RA.js from: /opt/Insomnia/resources/app.asar/client/assets/index-GCnCL9RA.js
+[2026-05-31 22:14:41.841] [info]  Loading index for: /assets/fetch-CJfPuEYr.js from: /opt/Insomnia/resources/app.asar/client/assets/fetch-CJfPuEYr.js
+[2026-05-31 22:14:41.843] [info]  Loading index for: /assets/Button-BrEXQI1X.js from: /opt/Insomnia/resources/app.asar/client/assets/Button-BrEXQI1X.js
+[2026-05-31 22:14:41.844] [info]  Loading index for: /assets/chunk-UALY5CBT-CcBWZm-k.js from: /opt/Insomnia/resources/app.asar/client/assets/chunk-UALY5CBT-CcBWZm-k.js
+[2026-05-31 22:14:41.846] [info]  Loading index for: /assets/chunk-UVKPFVEO-CGUUbEyz.js from: /opt/Insomnia/resources/app.asar/client/assets/chunk-UVKPFVEO-CGUUbEyz.js
+[2026-05-31 22:14:41.848] [info]  Loading index for: /assets/index-Bw5kzXmw.js from: /opt/Insomnia/resources/app.asar/client/assets/index-Bw5kzXmw.js
+[2026-05-31 22:14:41.865] [info]  Loading index for: /assets/session-CtcjQ3QR.js from: /opt/Insomnia/resources/app.asar/client/assets/session-CtcjQ3QR.js
+[2026-05-31 22:14:41.866] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request._requestId.update-PqnYQrnh.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request._requestId.update-PqnYQrnh.js
+[2026-05-31 22:14:41.867] [info]  Loading index for: /assets/router-Cp-gr4aE.js from: /opt/Insomnia/resources/app.asar/client/assets/router-Cp-gr4aE.js
+[2026-05-31 22:14:41.868] [info]  Loading index for: /assets/index-BGPrvS8g.js from: /opt/Insomnia/resources/app.asar/client/assets/index-BGPrvS8g.js
+[2026-05-31 22:14:41.869] [info]  Loading index for: /assets/Text-HYNSVseU.js from: /opt/Insomnia/resources/app.asar/client/assets/Text-HYNSVseU.js
+[2026-05-31 22:14:41.870] [info]  Loading index for: /assets/utils-y1uog13P.js from: /opt/Insomnia/resources/app.asar/client/assets/utils-y1uog13P.js
+[2026-05-31 22:14:41.871] [info]  Loading index for: /assets/PortalProvider-B8-9fb27.js from: /opt/Insomnia/resources/app.asar/client/assets/PortalProvider-B8-9fb27.js
+[2026-05-31 22:14:41.872] [info]  Loading index for: /assets/index-BG-AtuNS.js from: /opt/Insomnia/resources/app.asar/client/assets/index-BG-AtuNS.js
+[2026-05-31 22:14:41.873] [info]  Loading index for: /assets/format-DswqCE84.js from: /opt/Insomnia/resources/app.asar/client/assets/format-DswqCE84.js
+[2026-05-31 22:14:41.874] [info]  Loading index for: /assets/response-operations-jf74dVhQ.js from: /opt/Insomnia/resources/app.asar/client/assets/response-operations-jf74dVhQ.js
+[2026-05-31 22:14:41.875] [info]  Loading index for: /assets/_virtual_external_electron-CtzPonw4.js from: /opt/Insomnia/resources/app.asar/client/assets/_virtual_external_electron-CtzPonw4.js
+[2026-05-31 22:14:41.876] [info]  Loading index for: /assets/invariant-DVddvGrP.js from: /opt/Insomnia/resources/app.asar/client/assets/invariant-DVddvGrP.js
+[2026-05-31 22:14:41.878] [info]  Loading index for: /assets/vault-DpisRtvG.js from: /opt/Insomnia/resources/app.asar/client/assets/vault-DpisRtvG.js
+[2026-05-31 22:14:41.879] [info]  Loading index for: /assets/crypt-DMncNR-A.js from: /opt/Insomnia/resources/app.asar/client/assets/crypt-DMncNR-A.js
+[2026-05-31 22:14:41.881] [info]  Loading index for: /assets/querystring-CGJNKJPA.js from: /opt/Insomnia/resources/app.asar/client/assets/querystring-CGJNKJPA.js
+[2026-05-31 22:14:41.882] [info]  Loading index for: /assets/sorting-B_mKPNc5.js from: /opt/Insomnia/resources/app.asar/client/assets/sorting-B_mKPNc5.js
+[2026-05-31 22:14:41.882] [info]  Loading index for: /assets/_commonjs-dynamic-modules-TDtrdbi3.js from: /opt/Insomnia/resources/app.asar/client/assets/_commonjs-dynamic-modules-TDtrdbi3.js
+[2026-05-31 22:14:41.883] [info]  Loading index for: /assets/user-D4KbwxLh.js from: /opt/Insomnia/resources/app.asar/client/assets/user-D4KbwxLh.js
+[2026-05-31 22:14:41.884] [info]  Loading index for: /assets/RSPContexts-D661IgbQ.js from: /opt/Insomnia/resources/app.asar/client/assets/RSPContexts-D661IgbQ.js
+[2026-05-31 22:14:41.885] [info]  Loading index for: /assets/Modal-DlbyWRVS.js from: /opt/Insomnia/resources/app.asar/client/assets/Modal-DlbyWRVS.js
+[2026-05-31 22:14:41.886] [info]  Loading index for: /assets/useOverlayTriggerState-fzL2asjN.js from: /opt/Insomnia/resources/app.asar/client/assets/useOverlayTriggerState-fzL2asjN.js
+[2026-05-31 22:14:41.888] [info]  Loading index for: /assets/useControlledState-DOKpb4u1.js from: /opt/Insomnia/resources/app.asar/client/assets/useControlledState-DOKpb4u1.js
+[2026-05-31 22:14:41.889] [info]  Loading index for: /assets/SelectionIndicator-pz-6W0tg.js from: /opt/Insomnia/resources/app.asar/client/assets/SelectionIndicator-pz-6W0tg.js
+[2026-05-31 22:14:41.890] [info]  Loading index for: /assets/Heading-Dm0PMXJ1.js from: /opt/Insomnia/resources/app.asar/client/assets/Heading-Dm0PMXJ1.js
+[2026-05-31 22:14:41.891] [info]  Loading index for: /assets/Form-C4675DKG.js from: /opt/Insomnia/resources/app.asar/client/assets/Form-C4675DKG.js
+[2026-05-31 22:14:41.892] [info]  Loading index for: /assets/tooltip-CCKLy_Og.js from: /opt/Insomnia/resources/app.asar/client/assets/tooltip-CCKLy_Og.js
+[2026-05-31 22:14:41.893] [info]  Loading index for: /assets/index-CU2v5URN.js from: /opt/Insomnia/resources/app.asar/client/assets/index-CU2v5URN.js
+[2026-05-31 22:14:41.894] [info]  Loading index for: /assets/error-boundary-BhjPBLIf.js from: /opt/Insomnia/resources/app.asar/client/assets/error-boundary-BhjPBLIf.js
+[2026-05-31 22:14:41.895] [info]  Loading index for: /assets/project-DHQauXJe.js from: /opt/Insomnia/resources/app.asar/client/assets/project-DHQauXJe.js
+[2026-05-31 22:14:41.896] [info]  Loading index for: /assets/project-atkvBuxn.js from: /opt/Insomnia/resources/app.asar/client/assets/project-atkvBuxn.js
+[2026-05-31 22:14:41.897] [info]  Loading index for: /assets/organization-YfNul58J.js from: /opt/Insomnia/resources/app.asar/client/assets/organization-YfNul58J.js
+[2026-05-31 22:14:41.898] [info]  Loading index for: /assets/auth.authorize-D7-KZy1j.js from: /opt/Insomnia/resources/app.asar/client/assets/auth.authorize-D7-KZy1j.js
+[2026-05-31 22:14:41.899] [info]  Loading index for: /assets/vault-CVy6YpyO.js from: /opt/Insomnia/resources/app.asar/client/assets/vault-CVy6YpyO.js
+[2026-05-31 22:14:41.900] [info]  Loading index for: /assets/analytics-BgbiVfbb.js from: /opt/Insomnia/resources/app.asar/client/assets/analytics-BgbiVfbb.js
+[2026-05-31 22:14:41.901] [info]  Loading index for: /assets/auth-session-provider.client-DDXcblH7.js from: /opt/Insomnia/resources/app.asar/client/assets/auth-session-provider.client-DDXcblH7.js
+[2026-05-31 22:14:41.902] [info]  Loading index for: /assets/icon--KN_i_6C.js from: /opt/Insomnia/resources/app.asar/client/assets/icon--KN_i_6C.js
+[2026-05-31 22:14:41.903] [info]  Loading index for: /assets/vault-key.client-wV4rsSNM.js from: /opt/Insomnia/resources/app.asar/client/assets/vault-key.client-wV4rsSNM.js
+[2026-05-31 22:14:41.904] [info]  Loading index for: /assets/auth.default-browser-redirect-GyJBOBua.js from: /opt/Insomnia/resources/app.asar/client/assets/auth.default-browser-redirect-GyJBOBua.js
+[2026-05-31 22:14:41.905] [info]  Loading index for: /assets/auth.logout-DA3cMrui.js from: /opt/Insomnia/resources/app.asar/client/assets/auth.logout-DA3cMrui.js
+[2026-05-31 22:14:41.906] [info]  Loading index for: /assets/cloud-credentials.create-mFOmd0xN.js from: /opt/Insomnia/resources/app.asar/client/assets/cloud-credentials.create-mFOmd0xN.js
+[2026-05-31 22:14:41.907] [info]  Loading index for: /assets/git-credentials.complete-sign-in-C9L5xd0D.js from: /opt/Insomnia/resources/app.asar/client/assets/git-credentials.complete-sign-in-C9L5xd0D.js
+[2026-05-31 22:14:41.908] [info]  Loading index for: /assets/link-CC0i5W61.js from: /opt/Insomnia/resources/app.asar/client/assets/link-CC0i5W61.js
+[2026-05-31 22:14:41.909] [info]  Loading index for: /assets/import.resources-DQd0NZM1.js from: /opt/Insomnia/resources/app.asar/client/assets/import.resources-DQd0NZM1.js
+[2026-05-31 22:14:41.910] [info]  Loading index for: /assets/request-operations-BcDM5snb.js from: /opt/Insomnia/resources/app.asar/client/assets/request-operations-BcDM5snb.js
+[2026-05-31 22:14:41.911] [info]  Loading index for: /assets/import.scan-CfFhjUTY.js from: /opt/Insomnia/resources/app.asar/client/assets/import.scan-CfFhjUTY.js
+[2026-05-31 22:14:41.912] [info]  Loading index for: /assets/button-B7eym-Q2.js from: /opt/Insomnia/resources/app.asar/client/assets/button-B7eym-Q2.js
+[2026-05-31 22:14:41.913] [info]  Loading index for: /assets/use-git-file-issues-CJOQAYI-.js from: /opt/Insomnia/resources/app.asar/client/assets/use-git-file-issues-CJOQAYI-.js
+[2026-05-31 22:14:41.914] [info]  Loading index for: /assets/commands-BYQXCTeA.js from: /opt/Insomnia/resources/app.asar/client/assets/commands-BYQXCTeA.js
+[2026-05-31 22:14:41.916] [info]  Loading index for: /assets/organization._organizationId.insomnia-sync.pull-remote-file-DdF1ykMa.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.insomnia-sync.pull-remote-file-DdF1ykMa.js
+[2026-05-31 22:14:41.921] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.environment.set-active--Jtq2i1g.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.environment.set-active--Jtq2i1g.js
+[2026-05-31 22:14:41.922] [info]  Loading index for: /assets/remote-files-DtW02vG1.js from: /opt/Insomnia/resources/app.asar/client/assets/remote-files-DtW02vG1.js
+[2026-05-31 22:14:41.923] [info]  Loading index for: /assets/collaborators-T-sT-6rN.js from: /opt/Insomnia/resources/app.asar/client/assets/collaborators-T-sT-6rN.js
+[2026-05-31 22:14:41.924] [info]  Loading index for: /assets/auth.clear-vault-key-C-2cAqRb.js from: /opt/Insomnia/resources/app.asar/client/assets/auth.clear-vault-key-C-2cAqRb.js
+[2026-05-31 22:14:41.925] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId-DAqgeqjf.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId-DAqgeqjf.js
+[2026-05-31 22:14:41.926] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.insomnia-sync.sync-data-BKNTQRyN.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.insomnia-sync.sync-data-BKNTQRyN.js
+[2026-05-31 22:14:41.927] [info]  Loading index for: /assets/sync-utils-Cl3xLHGM.js from: /opt/Insomnia/resources/app.asar/client/assets/sync-utils-Cl3xLHGM.js
+[2026-05-31 22:14:41.928] [info]  Loading index for: /assets/organization._organizationId.storage-rules-vjVcPlYU.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.storage-rules-vjVcPlYU.js
+[2026-05-31 22:14:41.929] [info]  Loading index for: /assets/organizations-Dg2wTMHE.js from: /opt/Insomnia/resources/app.asar/client/assets/organizations-Dg2wTMHE.js
+[2026-05-31 22:14:41.930] [info]  Loading index for: /assets/organization._organizationId.sync-projects-CqkTLVOc.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.sync-projects-CqkTLVOc.js
+[2026-05-31 22:14:41.931] [info]  Loading index for: /assets/organization-utils-J_hFBYCJ.js from: /opt/Insomnia/resources/app.asar/client/assets/organization-utils-J_hFBYCJ.js
+[2026-05-31 22:14:41.932] [info]  Loading index for: /assets/project-IyzbA7kR.js from: /opt/Insomnia/resources/app.asar/client/assets/project-IyzbA7kR.js
+[2026-05-31 22:14:41.933] [info]  Loading index for: /assets/migrate-projects-into-organization-PKdiYZgx.js from: /opt/Insomnia/resources/app.asar/client/assets/migrate-projects-into-organization-PKdiYZgx.js
+[2026-05-31 22:14:41.934] [info]  Loading index for: /assets/organization.sync-COms6jI-.js from: /opt/Insomnia/resources/app.asar/client/assets/organization.sync-COms6jI-.js
+[2026-05-31 22:14:41.935] [info]  Loading index for: /assets/organization.sync-organizations-and-projects-DbwwaX3h.js from: /opt/Insomnia/resources/app.asar/client/assets/organization.sync-organizations-and-projects-DbwwaX3h.js
+[2026-05-31 22:14:41.936] [info]  Loading index for: /assets/untracked-projects-DzgmRk9c.js from: /opt/Insomnia/resources/app.asar/client/assets/untracked-projects-DzgmRk9c.js
+[2026-05-31 22:14:41.937] [info]  Loading index for: /assets/RadioGroup-DKBXvrMm.js from: /opt/Insomnia/resources/app.asar/client/assets/RadioGroup-DKBXvrMm.js
+[2026-05-31 22:14:41.938] [info]  Loading index for: /assets/invite-C4T2vDPl.js from: /opt/Insomnia/resources/app.asar/client/assets/invite-C4T2vDPl.js
+[2026-05-31 22:14:41.939] [info]  Loading index for: /assets/organization._organizationId.collaborators-bGocFr-9.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.collaborators-bGocFr-9.js
+[2026-05-31 22:14:41.940] [info]  Loading index for: /assets/organization._organizationId.collaborators.invites._invitationId-Cy8jMrgp.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.collaborators.invites._invitationId-Cy8jMrgp.js
+[2026-05-31 22:14:41.941] [info]  Loading index for: /assets/organization._organizationId.collaborators.invites._invitationId.reinvite-cfxtba9U.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.collaborators.invites._invitationId.reinvite-cfxtba9U.js
+[2026-05-31 22:14:41.942] [info]  Loading index for: /assets/organization._organizationId.collaborators-check-seats-td0Tr43w.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.collaborators-check-seats-td0Tr43w.js
+[2026-05-31 22:14:41.942] [info]  Loading index for: /assets/organization._organizationId.members._userId.roles-RgLTAgCS.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.members._userId.roles-RgLTAgCS.js
+[2026-05-31 22:14:41.943] [info]  Loading index for: /assets/resource.usage-Bt98NXMH.js from: /opt/Insomnia/resources/app.asar/client/assets/resource.usage-Bt98NXMH.js
+[2026-05-31 22:14:41.944] [info]  Loading index for: /assets/trial-vEpWebFN.js from: /opt/Insomnia/resources/app.asar/client/assets/trial-vEpWebFN.js
+[2026-05-31 22:14:41.945] [info]  Loading index for: /assets/trial.start-B9Mw8o6x.js from: /opt/Insomnia/resources/app.asar/client/assets/trial.start-B9Mw8o6x.js
+[2026-05-31 22:14:41.947] [info]  Loading index for: /assets/organization._organizationId.permissions-CCaQss6E.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.permissions-CCaQss6E.js
+[2026-05-31 22:14:41.948] [info]  Loading index for: /assets/git-credentials-BApiqLKh.js from: /opt/Insomnia/resources/app.asar/client/assets/git-credentials-BApiqLKh.js
+[2026-05-31 22:14:41.949] [info]  Loading index for: /assets/git-credentials._id.delete-Cktq2hQI.js from: /opt/Insomnia/resources/app.asar/client/assets/git-credentials._id.delete-Cktq2hQI.js
+[2026-05-31 22:14:41.950] [info]  Loading index for: /assets/git-credentials._id.related-projects-Dl0DYA8a.js from: /opt/Insomnia/resources/app.asar/client/assets/git-credentials._id.related-projects-Dl0DYA8a.js
+[2026-05-31 22:14:41.951] [info]  Loading index for: /assets/git-credentials._id.update-Bs_JGiQp.js from: /opt/Insomnia/resources/app.asar/client/assets/git-credentials._id.update-Bs_JGiQp.js
+[2026-05-31 22:14:41.952] [info]  Loading index for: /assets/git-credentials.init-sign-in-vce_mrip.js from: /opt/Insomnia/resources/app.asar/client/assets/git-credentials.init-sign-in-vce_mrip.js
+[2026-05-31 22:14:41.953] [info]  Loading index for: /assets/git-credentials.create-BwmYZ1OW.js from: /opt/Insomnia/resources/app.asar/client/assets/git-credentials.create-BwmYZ1OW.js
+[2026-05-31 22:14:41.954] [info]  Loading index for: /assets/cloud-credentials._cloudCredentialId.delete-CrpwUOFf.js from: /opt/Insomnia/resources/app.asar/client/assets/cloud-credentials._cloudCredentialId.delete-CrpwUOFf.js
+[2026-05-31 22:14:41.955] [info]  Loading index for: /assets/cloud-credentials._cloudCredentialId.update-DoIQ5J2x.js from: /opt/Insomnia/resources/app.asar/client/assets/cloud-credentials._cloudCredentialId.update-DoIQ5J2x.js
+[2026-05-31 22:14:41.956] [info]  Loading index for: /assets/insomnia-icon-kj00V5Um.js from: /opt/Insomnia/resources/app.asar/client/assets/insomnia-icon-kj00V5Um.js
+[2026-05-31 22:14:41.957] [info]  Loading index for: /assets/auth.create-vault-key-DZySi3iB.js from: /opt/Insomnia/resources/app.asar/client/assets/auth.create-vault-key-DZySi3iB.js
+[2026-05-31 22:14:41.958] [info]  Loading index for: /assets/auth.update-vault-salt-CtRY3yoQ.js from: /opt/Insomnia/resources/app.asar/client/assets/auth.update-vault-salt-CtRY3yoQ.js
+[2026-05-31 22:14:41.959] [info]  Loading index for: /assets/auth.reset-vault-key-DOlkYT-X.js from: /opt/Insomnia/resources/app.asar/client/assets/auth.reset-vault-key-DOlkYT-X.js
+[2026-05-31 22:14:41.960] [info]  Loading index for: /assets/auth.validate-vault-key-C756VCgk.js from: /opt/Insomnia/resources/app.asar/client/assets/auth.validate-vault-key-C756VCgk.js
+[2026-05-31 22:14:41.961] [info]  Loading index for: /assets/organization._organizationId.project._projectId.move-CLsp5qPg.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.move-CLsp5qPg.js
+[2026-05-31 22:14:41.962] [info]  Loading index for: /assets/organization._organizationId.project._projectId.move-workspace-CjtjZdyQ.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.move-workspace-CjtjZdyQ.js
+[2026-05-31 22:14:41.963] [info]  Loading index for: /assets/organization._organizationId.project.new-BSVmbjMK.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project.new-BSVmbjMK.js
+[2026-05-31 22:14:41.964] [info]  Loading index for: /assets/organization._organizationId.project._projectId-hp0HzVQw.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId-hp0HzVQw.js
+[2026-05-31 22:14:41.965] [info]  Loading index for: /assets/organization._organizationId.collaborators-search-9nyQ_qmf.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.collaborators-search-9nyQ_qmf.js
+[2026-05-31 22:14:41.966] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request._requestId-CGFQayOk.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request._requestId-CGFQayOk.js
+[2026-05-31 22:14:41.967] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request-group._requestGroupId-CuBAjlix.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request-group._requestGroupId-CuBAjlix.js
+[2026-05-31 22:14:41.968] [info]  Loading index for: /assets/index-Cfl9hVlX.js from: /opt/Insomnia/resources/app.asar/client/assets/index-Cfl9hVlX.js
+[2026-05-31 22:14:41.969] [info]  Loading index for: /assets/xpath-Di-F198l.js from: /opt/Insomnia/resources/app.asar/client/assets/xpath-Di-F198l.js
+[2026-05-31 22:14:41.969] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.cacert.delete-C1N2IVgy.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.cacert.delete-C1N2IVgy.js
+[2026-05-31 22:14:41.970] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.cacert.new-Ba0DF8Mx.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.cacert.new-Ba0DF8Mx.js
+[2026-05-31 22:14:41.971] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.cacert.update-BRg-Nw2D.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.cacert.update-BRg-Nw2D.js
+[2026-05-31 22:14:41.972] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.clientcert.delete-C3_4PnvT.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.clientcert.delete-C3_4PnvT.js
+[2026-05-31 22:14:41.973] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.clientcert.new-DnbD9iVt.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.clientcert.new-DnbD9iVt.js
+[2026-05-31 22:14:41.974] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.clientcert.update-oIHe5Cn1.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.clientcert.update-oIHe5Cn1.js
+[2026-05-31 22:14:41.975] [info]  Loading index for: /assets/index-BG60j_pn.js from: /opt/Insomnia/resources/app.asar/client/assets/index-BG60j_pn.js
+[2026-05-31 22:14:41.976] [info]  Loading index for: /assets/git.remote-branches-fCBpQzla.js from: /opt/Insomnia/resources/app.asar/client/assets/git.remote-branches-fCBpQzla.js
+[2026-05-31 22:14:41.977] [info]  Loading index for: /assets/ai.generate-commit-messages-TKrYMksh.js from: /opt/Insomnia/resources/app.asar/client/assets/ai.generate-commit-messages-TKrYMksh.js
+[2026-05-31 22:14:41.978] [info]  Loading index for: /assets/git.changes-C9Me-aUn.js from: /opt/Insomnia/resources/app.asar/client/assets/git.changes-C9Me-aUn.js
+[2026-05-31 22:14:41.979] [info]  Loading index for: /assets/git.commit-jJEDn8R6.js from: /opt/Insomnia/resources/app.asar/client/assets/git.commit-jJEDn8R6.js
+[2026-05-31 22:14:41.980] [info]  Loading index for: /assets/git.commits-Bj-eeTP3.js from: /opt/Insomnia/resources/app.asar/client/assets/git.commits-Bj-eeTP3.js
+[2026-05-31 22:14:41.981] [info]  Loading index for: /assets/git.diff-DKmUGBsi.js from: /opt/Insomnia/resources/app.asar/client/assets/git.diff-DKmUGBsi.js
+[2026-05-31 22:14:41.982] [info]  Loading index for: /assets/git.discard-DAKCT_zd.js from: /opt/Insomnia/resources/app.asar/client/assets/git.discard-DAKCT_zd.js
+[2026-05-31 22:14:41.983] [info]  Loading index for: /assets/git.stage-v49gbIBR.js from: /opt/Insomnia/resources/app.asar/client/assets/git.stage-v49gbIBR.js
+[2026-05-31 22:14:41.984] [info]  Loading index for: /assets/git.unstage-unOJ3tMc.js from: /opt/Insomnia/resources/app.asar/client/assets/git.unstage-unOJ3tMc.js
+[2026-05-31 22:14:41.985] [info]  Loading index for: /assets/git.repository-tree-CkNQJGE1.js from: /opt/Insomnia/resources/app.asar/client/assets/git.repository-tree-CkNQJGE1.js
+[2026-05-31 22:14:41.986] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace.update-C4kWV0sJ.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace.update-C4kWV0sJ.js
+[2026-05-31 22:14:41.987] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request.new-mock-send-CDQ1GHFO.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request.new-mock-send-CDQ1GHFO.js
+[2026-05-31 22:14:41.988] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.mock-server.mock-route._mockRouteId.update-5Qrr9knd.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.mock-server.mock-route._mockRouteId.update-5Qrr9knd.js
+[2026-05-31 22:14:41.989] [info]  Loading index for: /assets/trial.check-kF5DnSVP.js from: /opt/Insomnia/resources/app.asar/client/assets/trial.check-kF5DnSVP.js
+[2026-05-31 22:14:41.990] [info]  Loading index for: /assets/git.branch.checkout-BGaET6V5.js from: /opt/Insomnia/resources/app.asar/client/assets/git.branch.checkout-BGaET6V5.js
+[2026-05-31 22:14:41.990] [info]  Loading index for: /assets/git.fetch-CpFkHvEK.js from: /opt/Insomnia/resources/app.asar/client/assets/git.fetch-CpFkHvEK.js
+[2026-05-31 22:14:41.991] [info]  Loading index for: /assets/git.push-J3i2Z9OF.js from: /opt/Insomnia/resources/app.asar/client/assets/git.push-J3i2Z9OF.js
+[2026-05-31 22:14:41.992] [info]  Loading index for: /assets/git.repo-yVgbfcBv.js from: /opt/Insomnia/resources/app.asar/client/assets/git.repo-yVgbfcBv.js
+[2026-05-31 22:14:41.993] [info]  Loading index for: /assets/git.status-DbcUG6LS.js from: /opt/Insomnia/resources/app.asar/client/assets/git.status-DbcUG6LS.js
+[2026-05-31 22:14:41.994] [info]  Loading index for: /assets/git.init-clone-Bmzy9TDl.js from: /opt/Insomnia/resources/app.asar/client/assets/git.init-clone-Bmzy9TDl.js
+[2026-05-31 22:14:41.995] [info]  Loading index for: /assets/git.all-connected-repos-CyfQ5wo_.js from: /opt/Insomnia/resources/app.asar/client/assets/git.all-connected-repos-CyfQ5wo_.js
+[2026-05-31 22:14:41.996] [info]  Loading index for: /assets/git.validate-credential-Bpg3fERj.js from: /opt/Insomnia/resources/app.asar/client/assets/git.validate-credential-Bpg3fERj.js
+[2026-05-31 22:14:41.997] [info]  Loading index for: /assets/git-provider.repositories-BmwYu9bL.js from: /opt/Insomnia/resources/app.asar/client/assets/git-provider.repositories-BmwYu9bL.js
+[2026-05-31 22:14:41.997] [info]  Loading index for: /assets/git.validate-credentials-CzSerjzu.js from: /opt/Insomnia/resources/app.asar/client/assets/git.validate-credentials-CzSerjzu.js
+[2026-05-31 22:14:41.998] [info]  Loading index for: /assets/git-provider.emails-iUi48wBV.js from: /opt/Insomnia/resources/app.asar/client/assets/git-provider.emails-iUi48wBV.js
+[2026-05-31 22:14:41.999] [info]  Loading index for: /assets/organization._organizationId.project._projectId.update-Blj_7_j9.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.update-Blj_7_j9.js
+[2026-05-31 22:14:42.000] [info]  Loading index for: /assets/git.branch.delete-CzvpP-PP.js from: /opt/Insomnia/resources/app.asar/client/assets/git.branch.delete-CzvpP-PP.js
+[2026-05-31 22:14:42.001] [info]  Loading index for: /assets/git.branch.new-CDJL_KNQ.js from: /opt/Insomnia/resources/app.asar/client/assets/git.branch.new-CDJL_KNQ.js
+[2026-05-31 22:14:42.002] [info]  Loading index for: /assets/git.branches-CutW5dLl.js from: /opt/Insomnia/resources/app.asar/client/assets/git.branches-CutW5dLl.js
+[2026-05-31 22:14:42.003] [info]  Loading index for: /assets/git.log-DRWmtVMD.js from: /opt/Insomnia/resources/app.asar/client/assets/git.log-DRWmtVMD.js
+[2026-05-31 22:14:42.004] [info]  Loading index for: /assets/git.migrate-legacy-insomnia-folder-to-file-b3vB4y6f.js from: /opt/Insomnia/resources/app.asar/client/assets/git.migrate-legacy-insomnia-folder-to-file-b3vB4y6f.js
+[2026-05-31 22:14:42.005] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace.delete-U1h5LR9a.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace.delete-U1h5LR9a.js
+[2026-05-31 22:14:42.006] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace.move-iqkiAazx.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace.move-iqkiAazx.js
+[2026-05-31 22:14:42.007] [info]  Loading index for: /assets/organization._organizationId.project._projectId.delete-Ddea2gpZ.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.delete-Ddea2gpZ.js
+[2026-05-31 22:14:42.007] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request.new--bmyKFxf.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request.new--bmyKFxf.js
+[2026-05-31 22:14:42.008] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request._requestId.update-meta-BlO0jxhu.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request._requestId.update-meta-BlO0jxhu.js
+[2026-05-31 22:14:42.009] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request._requestId.update-payload-DWA4OnYI.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request._requestId.update-payload-DWA4OnYI.js
+[2026-05-31 22:14:42.010] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request-group._requestGroupId.update-C4vLoCc3.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request-group._requestGroupId.update-C4vLoCc3.js
+[2026-05-31 22:14:42.011] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request-group._requestGroupId.update-meta-L3DJvm_D.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request-group._requestGroupId.update-meta-L3DJvm_D.js
+[2026-05-31 22:14:42.132] [info]  Loading index for: /assets/settings.update-DN_y62lS.js from: /opt/Insomnia/resources/app.asar/client/assets/settings.update-DN_y62lS.js
+[2026-05-31 22:14:42.133] [info]  Loading index for: /assets/root-DWDX2aqe.js from: /opt/Insomnia/resources/app.asar/client/assets/root-DWDX2aqe.js
+[2026-05-31 22:14:44.353] [info]  Loading index for: /organization/org_scratchpad/project/proj_scratchpad/workspace/wrk_scratchpad/debug from: /opt/Insomnia/resources/app.asar/client/index.html
+[2026-05-31 22:14:44.523] [info]  Loading index for: /assets/organization._organizationId.project._projectId-DIPB3Vbg.css from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId-DIPB3Vbg.css
+[2026-05-31 22:14:44.525] [info]  Loading index for: /assets/styles-BQn0iR1t.css from: /opt/Insomnia/resources/app.asar/client/assets/styles-BQn0iR1t.css
+[2026-05-31 22:14:44.527] [info]  Loading index for: /assets/manifest-f09c7240.js from: /opt/Insomnia/resources/app.asar/client/assets/manifest-f09c7240.js
+[2026-05-31 22:14:44.528] [info]  Loading index for: /assets/entry.client-DE_9C0uf.js from: /opt/Insomnia/resources/app.asar/client/assets/entry.client-DE_9C0uf.js
+[2026-05-31 22:14:44.529] [info]  Loading index for: /assets/jsx-runtime-DioqOJdD.js from: /opt/Insomnia/resources/app.asar/client/assets/jsx-runtime-DioqOJdD.js
+[2026-05-31 22:14:44.531] [info]  Loading index for: /assets/index-BcJwbNuM.js from: /opt/Insomnia/resources/app.asar/client/assets/index-BcJwbNuM.js
+[2026-05-31 22:14:44.532] [info]  Loading index for: /assets/toast-notification-BKCCuj0P.js from: /opt/Insomnia/resources/app.asar/client/assets/toast-notification-BKCCuj0P.js
+[2026-05-31 22:14:44.543] [info]  Loading index for: /assets/index-DeFelqtg.js from: /opt/Insomnia/resources/app.asar/client/assets/index-DeFelqtg.js
+[2026-05-31 22:14:44.544] [info]  Loading index for: /assets/organization._organizationId.project._projectId._index-CwOnjDKY.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId._index-CwOnjDKY.js
+[2026-05-31 22:14:44.545] [info]  Loading index for: /assets/index-DKPuaYPF.js from: /opt/Insomnia/resources/app.asar/client/assets/index-DKPuaYPF.js
+[2026-05-31 22:14:44.546] [info]  Loading index for: /assets/index-GCnCL9RA.js from: /opt/Insomnia/resources/app.asar/client/assets/index-GCnCL9RA.js
+[2026-05-31 22:14:44.547] [info]  Loading index for: /assets/fetch-CJfPuEYr.js from: /opt/Insomnia/resources/app.asar/client/assets/fetch-CJfPuEYr.js
+[2026-05-31 22:14:44.547] [info]  Loading index for: /assets/Button-BrEXQI1X.js from: /opt/Insomnia/resources/app.asar/client/assets/Button-BrEXQI1X.js
+[2026-05-31 22:14:44.548] [info]  Loading index for: /assets/chunk-UALY5CBT-CcBWZm-k.js from: /opt/Insomnia/resources/app.asar/client/assets/chunk-UALY5CBT-CcBWZm-k.js
+[2026-05-31 22:14:44.549] [info]  Loading index for: /assets/chunk-UVKPFVEO-CGUUbEyz.js from: /opt/Insomnia/resources/app.asar/client/assets/chunk-UVKPFVEO-CGUUbEyz.js
+[2026-05-31 22:14:44.550] [info]  Loading index for: /assets/index-Bw5kzXmw.js from: /opt/Insomnia/resources/app.asar/client/assets/index-Bw5kzXmw.js
+[2026-05-31 22:14:44.550] [info]  Loading index for: /assets/session-CtcjQ3QR.js from: /opt/Insomnia/resources/app.asar/client/assets/session-CtcjQ3QR.js
+[2026-05-31 22:14:44.551] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request._requestId.update-PqnYQrnh.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request._requestId.update-PqnYQrnh.js
+[2026-05-31 22:14:44.552] [info]  Loading index for: /assets/router-Cp-gr4aE.js from: /opt/Insomnia/resources/app.asar/client/assets/router-Cp-gr4aE.js
+[2026-05-31 22:14:44.553] [info]  Loading index for: /assets/index-BGPrvS8g.js from: /opt/Insomnia/resources/app.asar/client/assets/index-BGPrvS8g.js
+[2026-05-31 22:14:44.553] [info]  Loading index for: /assets/Text-HYNSVseU.js from: /opt/Insomnia/resources/app.asar/client/assets/Text-HYNSVseU.js
+[2026-05-31 22:14:44.554] [info]  Loading index for: /assets/utils-y1uog13P.js from: /opt/Insomnia/resources/app.asar/client/assets/utils-y1uog13P.js
+[2026-05-31 22:14:44.555] [info]  Loading index for: /assets/PortalProvider-B8-9fb27.js from: /opt/Insomnia/resources/app.asar/client/assets/PortalProvider-B8-9fb27.js
+[2026-05-31 22:14:44.556] [info]  Loading index for: /assets/index-BG-AtuNS.js from: /opt/Insomnia/resources/app.asar/client/assets/index-BG-AtuNS.js
+[2026-05-31 22:14:44.557] [info]  Loading index for: /assets/format-DswqCE84.js from: /opt/Insomnia/resources/app.asar/client/assets/format-DswqCE84.js
+[2026-05-31 22:14:44.557] [info]  Loading index for: /assets/response-operations-jf74dVhQ.js from: /opt/Insomnia/resources/app.asar/client/assets/response-operations-jf74dVhQ.js
+[2026-05-31 22:14:44.558] [info]  Loading index for: /assets/_virtual_external_electron-CtzPonw4.js from: /opt/Insomnia/resources/app.asar/client/assets/_virtual_external_electron-CtzPonw4.js
+[2026-05-31 22:14:44.559] [info]  Loading index for: /assets/invariant-DVddvGrP.js from: /opt/Insomnia/resources/app.asar/client/assets/invariant-DVddvGrP.js
+[2026-05-31 22:14:44.560] [info]  Loading index for: /assets/vault-DpisRtvG.js from: /opt/Insomnia/resources/app.asar/client/assets/vault-DpisRtvG.js
+[2026-05-31 22:14:44.560] [info]  Loading index for: /assets/crypt-DMncNR-A.js from: /opt/Insomnia/resources/app.asar/client/assets/crypt-DMncNR-A.js
+[2026-05-31 22:14:44.561] [info]  Loading index for: /assets/querystring-CGJNKJPA.js from: /opt/Insomnia/resources/app.asar/client/assets/querystring-CGJNKJPA.js
+[2026-05-31 22:14:44.562] [info]  Loading index for: /assets/sorting-B_mKPNc5.js from: /opt/Insomnia/resources/app.asar/client/assets/sorting-B_mKPNc5.js
+[2026-05-31 22:14:44.563] [info]  Loading index for: /assets/_commonjs-dynamic-modules-TDtrdbi3.js from: /opt/Insomnia/resources/app.asar/client/assets/_commonjs-dynamic-modules-TDtrdbi3.js
+[2026-05-31 22:14:44.563] [info]  Loading index for: /assets/user-D4KbwxLh.js from: /opt/Insomnia/resources/app.asar/client/assets/user-D4KbwxLh.js
+[2026-05-31 22:14:44.564] [info]  Loading index for: /assets/RSPContexts-D661IgbQ.js from: /opt/Insomnia/resources/app.asar/client/assets/RSPContexts-D661IgbQ.js
+[2026-05-31 22:14:44.565] [info]  Loading index for: /assets/Modal-DlbyWRVS.js from: /opt/Insomnia/resources/app.asar/client/assets/Modal-DlbyWRVS.js
+[2026-05-31 22:14:44.566] [info]  Loading index for: /assets/useOverlayTriggerState-fzL2asjN.js from: /opt/Insomnia/resources/app.asar/client/assets/useOverlayTriggerState-fzL2asjN.js
+[2026-05-31 22:14:44.566] [info]  Loading index for: /assets/useControlledState-DOKpb4u1.js from: /opt/Insomnia/resources/app.asar/client/assets/useControlledState-DOKpb4u1.js
+[2026-05-31 22:14:44.567] [info]  Loading index for: /assets/SelectionIndicator-pz-6W0tg.js from: /opt/Insomnia/resources/app.asar/client/assets/SelectionIndicator-pz-6W0tg.js
+[2026-05-31 22:14:44.568] [info]  Loading index for: /assets/Heading-Dm0PMXJ1.js from: /opt/Insomnia/resources/app.asar/client/assets/Heading-Dm0PMXJ1.js
+[2026-05-31 22:14:44.569] [info]  Loading index for: /assets/Form-C4675DKG.js from: /opt/Insomnia/resources/app.asar/client/assets/Form-C4675DKG.js
+[2026-05-31 22:14:44.570] [info]  Loading index for: /assets/tooltip-CCKLy_Og.js from: /opt/Insomnia/resources/app.asar/client/assets/tooltip-CCKLy_Og.js
+[2026-05-31 22:14:44.571] [info]  Loading index for: /assets/index-CU2v5URN.js from: /opt/Insomnia/resources/app.asar/client/assets/index-CU2v5URN.js
+[2026-05-31 22:14:44.571] [info]  Loading index for: /assets/error-boundary-BhjPBLIf.js from: /opt/Insomnia/resources/app.asar/client/assets/error-boundary-BhjPBLIf.js
+[2026-05-31 22:14:44.572] [info]  Loading index for: /assets/project-DHQauXJe.js from: /opt/Insomnia/resources/app.asar/client/assets/project-DHQauXJe.js
+[2026-05-31 22:14:44.573] [info]  Loading index for: /assets/project-atkvBuxn.js from: /opt/Insomnia/resources/app.asar/client/assets/project-atkvBuxn.js
+[2026-05-31 22:14:44.574] [info]  Loading index for: /assets/organization-YfNul58J.js from: /opt/Insomnia/resources/app.asar/client/assets/organization-YfNul58J.js
+[2026-05-31 22:14:44.574] [info]  Loading index for: /assets/auth.authorize-D7-KZy1j.js from: /opt/Insomnia/resources/app.asar/client/assets/auth.authorize-D7-KZy1j.js
+[2026-05-31 22:14:44.575] [info]  Loading index for: /assets/vault-CVy6YpyO.js from: /opt/Insomnia/resources/app.asar/client/assets/vault-CVy6YpyO.js
+[2026-05-31 22:14:44.576] [info]  Loading index for: /assets/analytics-BgbiVfbb.js from: /opt/Insomnia/resources/app.asar/client/assets/analytics-BgbiVfbb.js
+[2026-05-31 22:14:44.577] [info]  Loading index for: /assets/auth-session-provider.client-DDXcblH7.js from: /opt/Insomnia/resources/app.asar/client/assets/auth-session-provider.client-DDXcblH7.js
+[2026-05-31 22:14:44.578] [info]  Loading index for: /assets/icon--KN_i_6C.js from: /opt/Insomnia/resources/app.asar/client/assets/icon--KN_i_6C.js
+[2026-05-31 22:14:44.579] [info]  Loading index for: /assets/vault-key.client-wV4rsSNM.js from: /opt/Insomnia/resources/app.asar/client/assets/vault-key.client-wV4rsSNM.js
+[2026-05-31 22:14:44.579] [info]  Loading index for: /assets/auth.default-browser-redirect-GyJBOBua.js from: /opt/Insomnia/resources/app.asar/client/assets/auth.default-browser-redirect-GyJBOBua.js
+[2026-05-31 22:14:44.580] [info]  Loading index for: /assets/auth.logout-DA3cMrui.js from: /opt/Insomnia/resources/app.asar/client/assets/auth.logout-DA3cMrui.js
+[2026-05-31 22:14:44.581] [info]  Loading index for: /assets/cloud-credentials.create-mFOmd0xN.js from: /opt/Insomnia/resources/app.asar/client/assets/cloud-credentials.create-mFOmd0xN.js
+[2026-05-31 22:14:44.582] [info]  Loading index for: /assets/git-credentials.complete-sign-in-C9L5xd0D.js from: /opt/Insomnia/resources/app.asar/client/assets/git-credentials.complete-sign-in-C9L5xd0D.js
+[2026-05-31 22:14:44.583] [info]  Loading index for: /assets/link-CC0i5W61.js from: /opt/Insomnia/resources/app.asar/client/assets/link-CC0i5W61.js
+[2026-05-31 22:14:44.584] [info]  Loading index for: /assets/import.resources-DQd0NZM1.js from: /opt/Insomnia/resources/app.asar/client/assets/import.resources-DQd0NZM1.js
+[2026-05-31 22:14:44.585] [info]  Loading index for: /assets/request-operations-BcDM5snb.js from: /opt/Insomnia/resources/app.asar/client/assets/request-operations-BcDM5snb.js
+[2026-05-31 22:14:44.585] [info]  Loading index for: /assets/import.scan-CfFhjUTY.js from: /opt/Insomnia/resources/app.asar/client/assets/import.scan-CfFhjUTY.js
+[2026-05-31 22:14:44.586] [info]  Loading index for: /assets/button-B7eym-Q2.js from: /opt/Insomnia/resources/app.asar/client/assets/button-B7eym-Q2.js
+[2026-05-31 22:14:44.587] [info]  Loading index for: /assets/use-git-file-issues-CJOQAYI-.js from: /opt/Insomnia/resources/app.asar/client/assets/use-git-file-issues-CJOQAYI-.js
+[2026-05-31 22:14:44.588] [info]  Loading index for: /assets/commands-BYQXCTeA.js from: /opt/Insomnia/resources/app.asar/client/assets/commands-BYQXCTeA.js
+[2026-05-31 22:14:44.588] [info]  Loading index for: /assets/organization._organizationId.insomnia-sync.pull-remote-file-DdF1ykMa.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.insomnia-sync.pull-remote-file-DdF1ykMa.js
+[2026-05-31 22:14:44.589] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.environment.set-active--Jtq2i1g.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.environment.set-active--Jtq2i1g.js
+[2026-05-31 22:14:44.590] [info]  Loading index for: /assets/remote-files-DtW02vG1.js from: /opt/Insomnia/resources/app.asar/client/assets/remote-files-DtW02vG1.js
+[2026-05-31 22:14:44.591] [info]  Loading index for: /assets/collaborators-T-sT-6rN.js from: /opt/Insomnia/resources/app.asar/client/assets/collaborators-T-sT-6rN.js
+[2026-05-31 22:14:44.592] [info]  Loading index for: /assets/auth.clear-vault-key-C-2cAqRb.js from: /opt/Insomnia/resources/app.asar/client/assets/auth.clear-vault-key-C-2cAqRb.js
+[2026-05-31 22:14:44.592] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId-DAqgeqjf.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId-DAqgeqjf.js
+[2026-05-31 22:14:44.593] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.insomnia-sync.sync-data-BKNTQRyN.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.insomnia-sync.sync-data-BKNTQRyN.js
+[2026-05-31 22:14:44.594] [info]  Loading index for: /assets/sync-utils-Cl3xLHGM.js from: /opt/Insomnia/resources/app.asar/client/assets/sync-utils-Cl3xLHGM.js
+[2026-05-31 22:14:44.595] [info]  Loading index for: /assets/organization._organizationId.storage-rules-vjVcPlYU.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.storage-rules-vjVcPlYU.js
+[2026-05-31 22:14:44.596] [info]  Loading index for: /assets/organizations-Dg2wTMHE.js from: /opt/Insomnia/resources/app.asar/client/assets/organizations-Dg2wTMHE.js
+[2026-05-31 22:14:44.596] [info]  Loading index for: /assets/organization._organizationId.sync-projects-CqkTLVOc.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.sync-projects-CqkTLVOc.js
+[2026-05-31 22:14:44.597] [info]  Loading index for: /assets/organization-utils-J_hFBYCJ.js from: /opt/Insomnia/resources/app.asar/client/assets/organization-utils-J_hFBYCJ.js
+[2026-05-31 22:14:44.598] [info]  Loading index for: /assets/project-IyzbA7kR.js from: /opt/Insomnia/resources/app.asar/client/assets/project-IyzbA7kR.js
+[2026-05-31 22:14:44.599] [info]  Loading index for: /assets/migrate-projects-into-organization-PKdiYZgx.js from: /opt/Insomnia/resources/app.asar/client/assets/migrate-projects-into-organization-PKdiYZgx.js
+[2026-05-31 22:14:44.600] [info]  Loading index for: /assets/organization.sync-COms6jI-.js from: /opt/Insomnia/resources/app.asar/client/assets/organization.sync-COms6jI-.js
+[2026-05-31 22:14:44.601] [info]  Loading index for: /assets/organization.sync-organizations-and-projects-DbwwaX3h.js from: /opt/Insomnia/resources/app.asar/client/assets/organization.sync-organizations-and-projects-DbwwaX3h.js
+[2026-05-31 22:14:44.602] [info]  Loading index for: /assets/untracked-projects-DzgmRk9c.js from: /opt/Insomnia/resources/app.asar/client/assets/untracked-projects-DzgmRk9c.js
+[2026-05-31 22:14:44.663] [info]  Loading index for: /assets/RadioGroup-DKBXvrMm.js from: /opt/Insomnia/resources/app.asar/client/assets/RadioGroup-DKBXvrMm.js
+[2026-05-31 22:14:44.664] [info]  Loading index for: /assets/invite-C4T2vDPl.js from: /opt/Insomnia/resources/app.asar/client/assets/invite-C4T2vDPl.js
+[2026-05-31 22:14:44.665] [info]  Loading index for: /assets/organization._organizationId.collaborators-bGocFr-9.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.collaborators-bGocFr-9.js
+[2026-05-31 22:14:44.666] [info]  Loading index for: /assets/organization._organizationId.collaborators.invites._invitationId-Cy8jMrgp.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.collaborators.invites._invitationId-Cy8jMrgp.js
+[2026-05-31 22:14:44.667] [info]  Loading index for: /assets/organization._organizationId.collaborators.invites._invitationId.reinvite-cfxtba9U.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.collaborators.invites._invitationId.reinvite-cfxtba9U.js
+[2026-05-31 22:14:44.668] [info]  Loading index for: /assets/organization._organizationId.collaborators-check-seats-td0Tr43w.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.collaborators-check-seats-td0Tr43w.js
+[2026-05-31 22:14:44.669] [info]  Loading index for: /assets/organization._organizationId.members._userId.roles-RgLTAgCS.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.members._userId.roles-RgLTAgCS.js
+[2026-05-31 22:14:44.670] [info]  Loading index for: /assets/resource.usage-Bt98NXMH.js from: /opt/Insomnia/resources/app.asar/client/assets/resource.usage-Bt98NXMH.js
+[2026-05-31 22:14:44.671] [info]  Loading index for: /assets/trial-vEpWebFN.js from: /opt/Insomnia/resources/app.asar/client/assets/trial-vEpWebFN.js
+[2026-05-31 22:14:44.671] [info]  Loading index for: /assets/trial.start-B9Mw8o6x.js from: /opt/Insomnia/resources/app.asar/client/assets/trial.start-B9Mw8o6x.js
+[2026-05-31 22:14:44.672] [info]  Loading index for: /assets/organization._organizationId.permissions-CCaQss6E.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.permissions-CCaQss6E.js
+[2026-05-31 22:14:44.673] [info]  Loading index for: /assets/git-credentials-BApiqLKh.js from: /opt/Insomnia/resources/app.asar/client/assets/git-credentials-BApiqLKh.js
+[2026-05-31 22:14:44.674] [info]  Loading index for: /assets/git-credentials._id.delete-Cktq2hQI.js from: /opt/Insomnia/resources/app.asar/client/assets/git-credentials._id.delete-Cktq2hQI.js
+[2026-05-31 22:14:44.674] [info]  Loading index for: /assets/git-credentials._id.related-projects-Dl0DYA8a.js from: /opt/Insomnia/resources/app.asar/client/assets/git-credentials._id.related-projects-Dl0DYA8a.js
+[2026-05-31 22:14:44.675] [info]  Loading index for: /assets/git-credentials._id.update-Bs_JGiQp.js from: /opt/Insomnia/resources/app.asar/client/assets/git-credentials._id.update-Bs_JGiQp.js
+[2026-05-31 22:14:44.676] [info]  Loading index for: /assets/git-credentials.init-sign-in-vce_mrip.js from: /opt/Insomnia/resources/app.asar/client/assets/git-credentials.init-sign-in-vce_mrip.js
+[2026-05-31 22:14:44.676] [info]  Loading index for: /assets/git-credentials.create-BwmYZ1OW.js from: /opt/Insomnia/resources/app.asar/client/assets/git-credentials.create-BwmYZ1OW.js
+[2026-05-31 22:14:44.677] [info]  Loading index for: /assets/cloud-credentials._cloudCredentialId.delete-CrpwUOFf.js from: /opt/Insomnia/resources/app.asar/client/assets/cloud-credentials._cloudCredentialId.delete-CrpwUOFf.js
+[2026-05-31 22:14:44.678] [info]  Loading index for: /assets/cloud-credentials._cloudCredentialId.update-DoIQ5J2x.js from: /opt/Insomnia/resources/app.asar/client/assets/cloud-credentials._cloudCredentialId.update-DoIQ5J2x.js
+[2026-05-31 22:14:44.678] [info]  Loading index for: /assets/insomnia-icon-kj00V5Um.js from: /opt/Insomnia/resources/app.asar/client/assets/insomnia-icon-kj00V5Um.js
+[2026-05-31 22:14:44.679] [info]  Loading index for: /assets/auth.create-vault-key-DZySi3iB.js from: /opt/Insomnia/resources/app.asar/client/assets/auth.create-vault-key-DZySi3iB.js
+[2026-05-31 22:14:44.680] [info]  Loading index for: /assets/auth.update-vault-salt-CtRY3yoQ.js from: /opt/Insomnia/resources/app.asar/client/assets/auth.update-vault-salt-CtRY3yoQ.js
+[2026-05-31 22:14:44.680] [info]  Loading index for: /assets/auth.reset-vault-key-DOlkYT-X.js from: /opt/Insomnia/resources/app.asar/client/assets/auth.reset-vault-key-DOlkYT-X.js
+[2026-05-31 22:14:44.681] [info]  Loading index for: /assets/auth.validate-vault-key-C756VCgk.js from: /opt/Insomnia/resources/app.asar/client/assets/auth.validate-vault-key-C756VCgk.js
+[2026-05-31 22:14:44.682] [info]  Loading index for: /assets/organization._organizationId.project._projectId.move-CLsp5qPg.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.move-CLsp5qPg.js
+[2026-05-31 22:14:44.683] [info]  Loading index for: /assets/organization._organizationId.project._projectId.move-workspace-CjtjZdyQ.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.move-workspace-CjtjZdyQ.js
+[2026-05-31 22:14:44.683] [info]  Loading index for: /assets/organization._organizationId.project.new-BSVmbjMK.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project.new-BSVmbjMK.js
+[2026-05-31 22:14:44.684] [info]  Loading index for: /assets/organization._organizationId.project._projectId-hp0HzVQw.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId-hp0HzVQw.js
+[2026-05-31 22:14:44.685] [info]  Loading index for: /assets/organization._organizationId.collaborators-search-9nyQ_qmf.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.collaborators-search-9nyQ_qmf.js
+[2026-05-31 22:14:44.685] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request._requestId-CGFQayOk.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request._requestId-CGFQayOk.js
+[2026-05-31 22:14:44.686] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request-group._requestGroupId-CuBAjlix.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request-group._requestGroupId-CuBAjlix.js
+[2026-05-31 22:14:44.687] [info]  Loading index for: /assets/index-Cfl9hVlX.js from: /opt/Insomnia/resources/app.asar/client/assets/index-Cfl9hVlX.js
+[2026-05-31 22:14:44.688] [info]  Loading index for: /assets/xpath-Di-F198l.js from: /opt/Insomnia/resources/app.asar/client/assets/xpath-Di-F198l.js
+[2026-05-31 22:14:44.688] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.cacert.delete-C1N2IVgy.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.cacert.delete-C1N2IVgy.js
+[2026-05-31 22:14:44.689] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.cacert.new-Ba0DF8Mx.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.cacert.new-Ba0DF8Mx.js
+[2026-05-31 22:14:44.690] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.cacert.update-BRg-Nw2D.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.cacert.update-BRg-Nw2D.js
+[2026-05-31 22:14:44.691] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.clientcert.delete-C3_4PnvT.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.clientcert.delete-C3_4PnvT.js
+[2026-05-31 22:14:44.692] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.clientcert.new-DnbD9iVt.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.clientcert.new-DnbD9iVt.js
+[2026-05-31 22:14:44.693] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.clientcert.update-oIHe5Cn1.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.clientcert.update-oIHe5Cn1.js
+[2026-05-31 22:14:44.693] [info]  Loading index for: /assets/index-BG60j_pn.js from: /opt/Insomnia/resources/app.asar/client/assets/index-BG60j_pn.js
+[2026-05-31 22:14:44.694] [info]  Loading index for: /assets/git.remote-branches-fCBpQzla.js from: /opt/Insomnia/resources/app.asar/client/assets/git.remote-branches-fCBpQzla.js
+[2026-05-31 22:14:44.695] [info]  Loading index for: /assets/ai.generate-commit-messages-TKrYMksh.js from: /opt/Insomnia/resources/app.asar/client/assets/ai.generate-commit-messages-TKrYMksh.js
+[2026-05-31 22:14:44.695] [info]  Loading index for: /assets/git.changes-C9Me-aUn.js from: /opt/Insomnia/resources/app.asar/client/assets/git.changes-C9Me-aUn.js
+[2026-05-31 22:14:44.696] [info]  Loading index for: /assets/git.commit-jJEDn8R6.js from: /opt/Insomnia/resources/app.asar/client/assets/git.commit-jJEDn8R6.js
+[2026-05-31 22:14:44.697] [info]  Loading index for: /assets/git.commits-Bj-eeTP3.js from: /opt/Insomnia/resources/app.asar/client/assets/git.commits-Bj-eeTP3.js
+[2026-05-31 22:14:44.698] [info]  Loading index for: /assets/git.diff-DKmUGBsi.js from: /opt/Insomnia/resources/app.asar/client/assets/git.diff-DKmUGBsi.js
+[2026-05-31 22:14:44.698] [info]  Loading index for: /assets/git.discard-DAKCT_zd.js from: /opt/Insomnia/resources/app.asar/client/assets/git.discard-DAKCT_zd.js
+[2026-05-31 22:14:44.699] [info]  Loading index for: /assets/git.stage-v49gbIBR.js from: /opt/Insomnia/resources/app.asar/client/assets/git.stage-v49gbIBR.js
+[2026-05-31 22:14:44.700] [info]  Loading index for: /assets/git.unstage-unOJ3tMc.js from: /opt/Insomnia/resources/app.asar/client/assets/git.unstage-unOJ3tMc.js
+[2026-05-31 22:14:44.700] [info]  Loading index for: /assets/git.repository-tree-CkNQJGE1.js from: /opt/Insomnia/resources/app.asar/client/assets/git.repository-tree-CkNQJGE1.js
+[2026-05-31 22:14:44.701] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace.update-C4kWV0sJ.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace.update-C4kWV0sJ.js
+[2026-05-31 22:14:44.702] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request.new-mock-send-CDQ1GHFO.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request.new-mock-send-CDQ1GHFO.js
+[2026-05-31 22:14:44.703] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.mock-server.mock-route._mockRouteId.update-5Qrr9knd.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.mock-server.mock-route._mockRouteId.update-5Qrr9knd.js
+[2026-05-31 22:14:44.703] [info]  Loading index for: /assets/trial.check-kF5DnSVP.js from: /opt/Insomnia/resources/app.asar/client/assets/trial.check-kF5DnSVP.js
+[2026-05-31 22:14:44.704] [info]  Loading index for: /assets/git.branch.checkout-BGaET6V5.js from: /opt/Insomnia/resources/app.asar/client/assets/git.branch.checkout-BGaET6V5.js
+[2026-05-31 22:14:44.705] [info]  Loading index for: /assets/git.fetch-CpFkHvEK.js from: /opt/Insomnia/resources/app.asar/client/assets/git.fetch-CpFkHvEK.js
+[2026-05-31 22:14:44.705] [info]  Loading index for: /assets/git.push-J3i2Z9OF.js from: /opt/Insomnia/resources/app.asar/client/assets/git.push-J3i2Z9OF.js
+[2026-05-31 22:14:44.706] [info]  Loading index for: /assets/git.repo-yVgbfcBv.js from: /opt/Insomnia/resources/app.asar/client/assets/git.repo-yVgbfcBv.js
+[2026-05-31 22:14:44.707] [info]  Loading index for: /assets/git.status-DbcUG6LS.js from: /opt/Insomnia/resources/app.asar/client/assets/git.status-DbcUG6LS.js
+[2026-05-31 22:14:44.708] [info]  Loading index for: /assets/git.init-clone-Bmzy9TDl.js from: /opt/Insomnia/resources/app.asar/client/assets/git.init-clone-Bmzy9TDl.js
+[2026-05-31 22:14:44.708] [info]  Loading index for: /assets/git.all-connected-repos-CyfQ5wo_.js from: /opt/Insomnia/resources/app.asar/client/assets/git.all-connected-repos-CyfQ5wo_.js
+[2026-05-31 22:14:44.709] [info]  Loading index for: /assets/git.validate-credential-Bpg3fERj.js from: /opt/Insomnia/resources/app.asar/client/assets/git.validate-credential-Bpg3fERj.js
+[2026-05-31 22:14:44.710] [info]  Loading index for: /assets/git-provider.repositories-BmwYu9bL.js from: /opt/Insomnia/resources/app.asar/client/assets/git-provider.repositories-BmwYu9bL.js
+[2026-05-31 22:14:44.710] [info]  Loading index for: /assets/git.validate-credentials-CzSerjzu.js from: /opt/Insomnia/resources/app.asar/client/assets/git.validate-credentials-CzSerjzu.js
+[2026-05-31 22:14:44.711] [info]  Loading index for: /assets/git-provider.emails-iUi48wBV.js from: /opt/Insomnia/resources/app.asar/client/assets/git-provider.emails-iUi48wBV.js
+[2026-05-31 22:14:44.712] [info]  Loading index for: /assets/organization._organizationId.project._projectId.update-Blj_7_j9.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.update-Blj_7_j9.js
+[2026-05-31 22:14:44.712] [info]  Loading index for: /assets/git.branch.delete-CzvpP-PP.js from: /opt/Insomnia/resources/app.asar/client/assets/git.branch.delete-CzvpP-PP.js
+[2026-05-31 22:14:44.713] [info]  Loading index for: /assets/git.branch.new-CDJL_KNQ.js from: /opt/Insomnia/resources/app.asar/client/assets/git.branch.new-CDJL_KNQ.js
+[2026-05-31 22:14:44.714] [info]  Loading index for: /assets/git.branches-CutW5dLl.js from: /opt/Insomnia/resources/app.asar/client/assets/git.branches-CutW5dLl.js
+[2026-05-31 22:14:44.715] [info]  Loading index for: /assets/git.log-DRWmtVMD.js from: /opt/Insomnia/resources/app.asar/client/assets/git.log-DRWmtVMD.js
+[2026-05-31 22:14:44.715] [info]  Loading index for: /assets/git.migrate-legacy-insomnia-folder-to-file-b3vB4y6f.js from: /opt/Insomnia/resources/app.asar/client/assets/git.migrate-legacy-insomnia-folder-to-file-b3vB4y6f.js
+[2026-05-31 22:14:44.716] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace.delete-U1h5LR9a.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace.delete-U1h5LR9a.js
+[2026-05-31 22:14:44.717] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace.move-iqkiAazx.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace.move-iqkiAazx.js
+[2026-05-31 22:14:44.718] [info]  Loading index for: /assets/organization._organizationId.project._projectId.delete-Ddea2gpZ.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.delete-Ddea2gpZ.js
+[2026-05-31 22:14:44.718] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request.new--bmyKFxf.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request.new--bmyKFxf.js
+[2026-05-31 22:14:44.719] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request._requestId.update-meta-BlO0jxhu.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request._requestId.update-meta-BlO0jxhu.js
+[2026-05-31 22:14:44.720] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request._requestId.update-payload-DWA4OnYI.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request._requestId.update-payload-DWA4OnYI.js
+[2026-05-31 22:14:44.720] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request-group._requestGroupId.update-C4vLoCc3.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request-group._requestGroupId.update-C4vLoCc3.js
+[2026-05-31 22:14:44.721] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request-group._requestGroupId.update-meta-L3DJvm_D.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request-group._requestGroupId.update-meta-L3DJvm_D.js
+[2026-05-31 22:14:44.722] [info]  Loading index for: /assets/settings.update-DN_y62lS.js from: /opt/Insomnia/resources/app.asar/client/assets/settings.update-DN_y62lS.js
+[2026-05-31 22:14:44.723] [info]  Loading index for: /assets/root-DWDX2aqe.js from: /opt/Insomnia/resources/app.asar/client/assets/root-DWDX2aqe.js
+[2026-05-31 22:14:46.491] [info]  Loading index for: /assets/organization-DGpnHj1k.js from: /opt/Insomnia/resources/app.asar/client/assets/organization-DGpnHj1k.js
+[2026-05-31 22:14:46.494] [info]  Loading index for: /assets/organization._organizationId.project._projectId-D6iExmPw.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId-D6iExmPw.js
+[2026-05-31 22:14:46.497] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId-BSzQYgw8.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId-BSzQYgw8.js
+[2026-05-31 22:14:46.498] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.debug-CHvFrohH.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.debug-CHvFrohH.js
+[2026-05-31 22:14:46.602] [info]  Loading index for: /assets/workspace-sync-dropdown-BJoCd18q.js from: /opt/Insomnia/resources/app.asar/client/assets/workspace-sync-dropdown-BJoCd18q.js
+[2026-05-31 22:14:46.606] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.reorder-u7T-JtUA.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.reorder-u7T-JtUA.js
+[2026-05-31 22:14:46.608] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request._requestId.duplicate-DSTyJcP3.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request._requestId.duplicate-DSTyJcP3.js
+[2026-05-31 22:14:46.609] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request.delete-BD4rGpoX.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request.delete-BD4rGpoX.js
+[2026-05-31 22:14:46.610] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request-group.new-BXSSJcNz.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request-group.new-BXSSJcNz.js
+[2026-05-31 22:14:46.611] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.runner-BDtV0ojf.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.runner-BDtV0ojf.js
+[2026-05-31 22:14:46.611] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.tutorial._panel-CFmHgIi-.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.tutorial._panel-CFmHgIi-.js
+[2026-05-31 22:14:46.612] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.toggle-expand-all-DSYXXZPC.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.toggle-expand-all-DSYXXZPC.js
+[2026-05-31 22:14:46.613] [info]  Loading index for: /assets/cookies-modal-BhauhCyY.js from: /opt/Insomnia/resources/app.asar/client/assets/cookies-modal-BhauhCyY.js
+[2026-05-31 22:14:46.614] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request-group.delete-B_YFvoGH.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request-group.delete-B_YFvoGH.js
+[2026-05-31 22:14:46.614] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request-group.duplicate-B0e4tw1U.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request-group.duplicate-B0e4tw1U.js
+[2026-05-31 22:14:46.615] [info]  Loading index for: /assets/workspace-dropdown-C0MJP868.js from: /opt/Insomnia/resources/app.asar/client/assets/workspace-dropdown-C0MJP868.js
+[2026-05-31 22:14:46.616] [info]  Loading index for: /assets/editable-input-C5noYsQK.js from: /opt/Insomnia/resources/app.asar/client/assets/editable-input-C5noYsQK.js
+[2026-05-31 22:14:46.616] [info]  Loading index for: /assets/use-toggle-environment-type-o15MQrK4.js from: /opt/Insomnia/resources/app.asar/client/assets/use-toggle-environment-type-o15MQrK4.js
+[2026-05-31 22:14:46.617] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request._requestId.connect-Ci5WHMow.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request._requestId.connect-Ci5WHMow.js
+[2026-05-31 22:14:46.618] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request._requestId.grant-access-B2PuuRRO.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request._requestId.grant-access-B2PuuRRO.js
+[2026-05-31 22:14:46.619] [info]  Loading index for: /assets/use-vcs-version-D_lNZ2R6.js from: /opt/Insomnia/resources/app.asar/client/assets/use-vcs-version-D_lNZ2R6.js
+[2026-05-31 22:14:46.620] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request._requestId.response.delete-BDyf3LJF.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request._requestId.response.delete-BDyf3LJF.js
+[2026-05-31 22:14:46.621] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request._requestId.response.delete-all-DA8i4Jvx.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request._requestId.response.delete-all-DA8i4Jvx.js
+[2026-05-31 22:14:46.639] [info]  Loading index for: /assets/ai.mcp-generate-sampling-response-CvxfB_Zu.js from: /opt/Insomnia/resources/app.asar/client/assets/ai.mcp-generate-sampling-response-CvxfB_Zu.js
+[2026-05-31 22:14:46.640] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request._requestId.send-BPcBJxnd.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request._requestId.send-BPcBJxnd.js
+[2026-05-31 22:14:46.640] [info]  Loading index for: /assets/mock-route-modal-COxAlLE3.js from: /opt/Insomnia/resources/app.asar/client/assets/mock-route-modal-COxAlLE3.js
+[2026-05-31 22:14:46.641] [info]  Loading index for: /assets/git.reset-B0s284DM.js from: /opt/Insomnia/resources/app.asar/client/assets/git.reset-B0s284DM.js
+[2026-05-31 22:14:46.642] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.insomnia-sync.branch.checkout-BC5PBj6x.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.insomnia-sync.branch.checkout-BC5PBj6x.js
+[2026-05-31 22:14:46.642] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.insomnia-sync.pull-D-OgP3fr.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.insomnia-sync.pull-D-OgP3fr.js
+[2026-05-31 22:14:46.643] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.insomnia-sync.push-62y7k60u.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.insomnia-sync.push-62y7k60u.js
+[2026-05-31 22:14:46.644] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.insomnia-sync.rollback-CwmT3ROK.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.insomnia-sync.rollback-CwmT3ROK.js
+[2026-05-31 22:14:46.645] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.insomnia-sync.branch.create-DkFFDeOy.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.insomnia-sync.branch.create-DkFFDeOy.js
+[2026-05-31 22:14:46.645] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.insomnia-sync.branch.delete-BLJuEaWy.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.insomnia-sync.branch.delete-BLJuEaWy.js
+[2026-05-31 22:14:46.646] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.insomnia-sync.branch.merge-DQLpQRoW.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.insomnia-sync.branch.merge-DQLpQRoW.js
+[2026-05-31 22:14:46.647] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.insomnia-sync.fetch-CCX4lCLQ.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.insomnia-sync.fetch-CCX4lCLQ.js
+[2026-05-31 22:14:46.647] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.insomnia-sync.restore-BcO0644C.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.insomnia-sync.restore-BcO0644C.js
+[2026-05-31 22:14:46.648] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.insomnia-sync.create-snapshot-CllC508s.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.insomnia-sync.create-snapshot-CllC508s.js
+[2026-05-31 22:14:46.649] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.insomnia-sync.stage-C4mUgG98.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.insomnia-sync.stage-C4mUgG98.js
+[2026-05-31 22:14:46.650] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.insomnia-sync.unstage-CAwdXZdZ.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.insomnia-sync.unstage-CAwdXZdZ.js
+[2026-05-31 22:14:46.650] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.environment.set-active-global-C-vJRyha.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.environment.set-active-global-C-vJRyha.js
+[2026-05-31 22:14:46.651] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.environment.create-BmMH_wNT.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.environment.create-BmMH_wNT.js
+[2026-05-31 22:14:46.652] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.environment.delete-Ba7oAvVf.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.environment.delete-Ba7oAvVf.js
+[2026-05-31 22:14:46.653] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.environment.duplicate-BqD-fEDm.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.environment.duplicate-BqD-fEDm.js
+[2026-05-31 22:14:46.653] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.environment.update-KuE0458c.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.environment.update-KuE0458c.js
+[2026-05-31 22:14:46.654] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.update-cookie-jar-DbSJfesz.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.update-cookie-jar-DbSJfesz.js
+[2026-05-31 22:14:46.655] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.mock-server.generate-request-collection-tmvOXTdu.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.mock-server.generate-request-collection-tmvOXTdu.js
+[2026-05-31 22:14:46.655] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.mock-server.mock-route.new-q3TJb-cU.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.mock-server.mock-route.new-q3TJb-cU.js
+[2026-05-31 22:14:46.882] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request._requestId-CnpdXgbP.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request._requestId-CnpdXgbP.js
+[2026-05-31 22:14:47.128] [info]  Loading index for: /assets/fa-solid-900-BkfGhAqU.woff2 from: /opt/Insomnia/resources/app.asar/client/assets/fa-solid-900-BkfGhAqU.woff2
+[2026-05-31 22:14:47.297] [info]  Loading index for: /assets/trial.check-BjEYwFXr.js from: /opt/Insomnia/resources/app.asar/client/assets/trial.check-BjEYwFXr.js
+[2026-05-31 22:14:47.440] [info]  Loading index for: /assets/untracked-projects-DTC3AsUT.js from: /opt/Insomnia/resources/app.asar/client/assets/untracked-projects-DTC3AsUT.js
+[2026-05-31 22:14:47.446] [info]  Loading index for: /assets/index-BTns_pH9.js from: /opt/Insomnia/resources/app.asar/client/assets/index-BTns_pH9.js
+[2026-05-31 22:14:48.000] [info]  [main] Window ready, handling command line arguments [ '/opt/Insomnia/insomnia' ]
+[2026-05-31 22:14:48.004] [info]  [main] Check args and create windows []
+[2026-05-31 22:14:48.038] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:14:51.217] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:14:51.294] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:14:51.437] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:14:51.780] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:14:51.795] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:14:53.557] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request._requestId.update-DNeeSZ-L.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request._requestId.update-DNeeSZ-L.js
+[2026-05-31 22:14:55.684] [info]  Loading index for: /assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request._requestId.send-9leLbEqy.js from: /opt/Insomnia/resources/app.asar/client/assets/organization._organizationId.project._projectId.workspace._workspaceId.debug.request._requestId.send-9leLbEqy.js
+[2026-05-31 22:15:03.712] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:03.807] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:03.984] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:04.315] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:04.327] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:04.328] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:16.776] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:16.893] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:17.064] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:17.436] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:17.454] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:17.456] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:17.457] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:17.459] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:17.460] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:17.461] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:17.462] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:17.463] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:17.464] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:17.465] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:27.056] [info]  Loading index for: /assets/settings.update-BkFgVOd1.js from: /opt/Insomnia/resources/app.asar/client/assets/settings.update-BkFgVOd1.js
+[2026-05-31 22:15:29.148] [info]  Loading index for: /assets/git-credentials-BmfNR0Sa.js from: /opt/Insomnia/resources/app.asar/client/assets/git-credentials-BmfNR0Sa.js
+[2026-05-31 22:15:30.894] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:31.002] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:31.154] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:31.402] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:31.415] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:31.417] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:31.418] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:45.055] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:45.169] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:45.331] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:45.585] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:45.596] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:56.209] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:56.321] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:56.524] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:56.860] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:56.871] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:56.872] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:56.873] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:56.874] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:56.875] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:56.875] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:15:56.876] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:17:46.753] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:17:46.867] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:17:46.998] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:17:47.296] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:17:47.302] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:17:47.302] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:17:47.303] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:17:47.303] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:17:47.303] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:17:47.304] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:17:57.159] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:17:57.237] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:17:57.410] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:17:57.812] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:17:57.825] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:17:57.826] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:17:57.827] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:18:09.051] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:18:09.120] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:18:09.240] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:18:09.475] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:18:09.489] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:18:09.490] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:18:09.491] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:18:09.491] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:18:09.492] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:18:09.493] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:18:09.494] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:18:09.495] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:18:09.496] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:18:09.497] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:18:19.168] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:18:19.264] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:18:19.464] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:18:19.859] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:18:19.871] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:18:19.872] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:18:19.873] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:18:48.554] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:18:48.658] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:18:48.827] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:18:49.050] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:18:49.063] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:19:28.051] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:19:28.158] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:19:28.335] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:19:28.627] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:19:28.641] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:19:28.642] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:19:28.643] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:19:28.644] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:19:43.627] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:19:43.743] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:19:43.933] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:19:44.201] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:19:44.213] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:19:44.214] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:19:44.215] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:19:44.216] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:20:14.454] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:20:14.569] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:20:14.720] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:20:15.042] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:20:15.053] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:20:15.055] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:20:15.056] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:20:15.057] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:20:15.058] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:20:20.581] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:20:20.655] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:20:20.768] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:20:21.111] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:20:21.124] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:20:21.125] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:20:21.126] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:20:21.126] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:20:21.127] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:20:21.128] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:20:21.129] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:20:21.129] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:20:21.130] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:20:21.131] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:20:21.132] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:20:21.132] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:20:21.133] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:20:21.134] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:20:21.135] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:20:30.745] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:20:30.846] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:20:31.055] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:20:31.404] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:20:31.414] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:20:31.416] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:20:31.416] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:20:31.417] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:20:31.418] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:20:31.418] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:20:31.419] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:20:31.420] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:21:08.692] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:21:08.762] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:21:08.914] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:21:09.205] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:21:09.220] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:21:09.221] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:21:09.222] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:21:09.223] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:21:23.871] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:21:23.972] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:21:24.167] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:21:24.487] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:21:24.500] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:21:24.501] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:21:24.502] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:21:24.503] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:21:24.504] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:21:24.504] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:21:24.505] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:21:24.506] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:21:24.507] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:21:24.507] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:21:24.508] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:21:24.509] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:21:34.683] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:21:34.786] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:21:34.998] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:21:35.276] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:21:35.280] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:22:31.433] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:22:31.514] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:22:31.722] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:22:32.087] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:22:32.120] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:22:32.121] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:22:32.122] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:24:02.756] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:24:02.846] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:24:03.014] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:24:03.427] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:24:03.437] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:24:03.438] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:24:03.439] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:24:03.440] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:24:03.440] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:24:03.441] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:24:03.442] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:24:13.936] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:24:14.048] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:24:14.236] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:24:14.443] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:24:14.447] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:24:51.550] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:24:51.636] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:24:51.846] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:24:52.062] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:24:52.066] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:24:52.067] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:24:52.067] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:24:52.067] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:24:52.068] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:24:52.068] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:24:52.068] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:24:52.068] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:24:52.068] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:27:09.058] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:27:09.130] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:27:09.307] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:27:09.715] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:27:09.727] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:30:25.355] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:30:25.467] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:30:25.682] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:30:25.981] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:30:25.992] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:30:25.993] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:30:46.123] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:30:46.193] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:30:46.340] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:30:46.626] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:30:46.630] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:32:12.302] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:32:12.378] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:32:12.557] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:32:12.920] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:32:12.934] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:32:12.935] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:32:12.936] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:32:12.937] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:32:12.937] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:32:12.938] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:32:12.939] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:32:12.940] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:32:12.941] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:32:12.942] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:32:12.943] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:32:12.944] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:32:12.945] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:32:12.945] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:32:12.946] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:32:24.287] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:32:24.402] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:32:24.541] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:32:24.766] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:32:24.769] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:32:48.820] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:32:48.930] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:32:49.114] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:32:49.421] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:32:49.431] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:33:04.609] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:33:04.722] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:33:04.870] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:33:05.242] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:33:05.248] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:33:05.249] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:33:05.249] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:33:05.250] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:45:40.128] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:45:40.224] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:45:40.352] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:45:40.737] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:45:40.743] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:45:54.428] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:45:54.494] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:45:54.624] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:45:55.023] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:45:55.036] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:45:55.037] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:45:55.038] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:46:06.480] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:46:06.578] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:46:06.718] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:46:07.118] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:46:07.128] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:46:07.129] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:46:21.865] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:46:21.965] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:46:22.149] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:46:22.549] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:46:22.560] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:46:22.561] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:46:22.562] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:58:10.602] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:58:10.696] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:58:10.903] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:58:11.204] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:58:11.213] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:58:11.214] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:58:11.214] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:58:21.359] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:58:21.428] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:58:21.620] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:58:21.850] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:58:21.861] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:58:21.862] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:58:21.862] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:59:49.857] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:59:49.965] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:59:50.149] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:59:50.378] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 22:59:50.395] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 23:00:01.105] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 23:00:01.179] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 23:00:01.347] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 23:00:01.687] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 23:00:01.698] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 23:01:25.040] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 23:01:25.118] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 23:01:25.285] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 23:01:25.588] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 23:01:25.593] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 23:01:25.594] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 23:01:25.594] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 23:02:37.662] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 23:02:37.738] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 23:02:37.956] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 23:02:38.182] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 23:02:38.193] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 23:03:51.491] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 23:03:51.594] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 23:03:51.767] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 23:03:52.125] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 23:03:52.136] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 23:13:15.468] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 23:13:15.572] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 23:13:15.722] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 23:13:16.016] [error] Error: net::ERR_CONNECTION_REFUSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 23:13:16.027] [warn]  [analytics] Error sending segment event Error: net::ERR_UNEXPECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:134569)
+    at SimpleURLLoaderWrapper.emit (node:events:508:28)
+[2026-05-31 23:47:55.287] [error] (node:4957) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `insomnia --trace-deprecation ...` to show where the warning was created)

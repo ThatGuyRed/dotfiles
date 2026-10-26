@@ -1,0 +1,85 @@
+{
+    "bibitems": [
+    ],
+    "bibtexfiles": [
+        "/home/red/Documents/sync/EESS/references.bib#/home/red/Documents/sync/EESS/references.bib"
+    ],
+    "childdocs": [
+    ],
+    "filename": "/home/red/Documents/sync/EESS/workshop_template_v2.tex",
+    "labels": [
+        "fig",
+        "fig",
+        "fig:",
+        "fig",
+        "fig",
+        "fig",
+        "fig",
+        "fig"
+    ],
+    "modified": "Sun Aug 16 19:09:55 2026",
+    "packages": [
+        "#listings",
+        "#enumitem",
+        "style=apa,backend=biber#biblatex",
+        "#fancyhdr",
+        "#amsmath",
+        "#graphicx",
+        "#sourcecodepro",
+        "a4paper, total={175mm, 262mm}#geometry",
+        "#url",
+        "x11names#xcolor",
+        "#minted",
+        "fontsize=12pt#fontsize",
+        "a4paper#latex-document",
+        "a4paper#tex",
+        "#subcaption",
+        "#graphicx"
+    ],
+    "refs": [
+    ],
+    "toc": [
+        "2#Introduction#38",
+        "2#Learning Objectives#42",
+        "2#Apparatus#52",
+        "2#Background#59",
+        "3#QUTy Microcontroller Development Board#61",
+        "3#Key Peripherals#64",
+        "3#Peripheral Multiplexing#84",
+        "3#Libraries in C#104",
+        "3#Basic peripheral operations#117",
+        "3#CPU Interrupts#139",
+        "3#Timers#167",
+        "4#Basic Operations#168",
+        "4#Timer prescalers#198",
+        "3#Analog-to-Digital Converter (ADC)#253",
+        "2#References#382",
+        "2#Appendix#386"
+    ],
+    "usercommands": [
+        [
+            "\\headrulewidth",
+            "\\headrulewidth"
+        ],
+        [
+            "\\code",
+            "\\code{}"
+        ],
+        [
+            "",
+            "%color%light-gray"
+        ],
+        [
+            "",
+            "%color%codebg"
+        ],
+        [
+            "\\familydefault",
+            "\\familydefault"
+        ],
+        [
+            "\\thesection",
+            "\\thesection"
+        ]
+    ]
+}

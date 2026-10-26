@@ -203,7 +203,8 @@
         "format-linked": "",
         "format-disconnected": "⚠",
         //"format-alt": "{ifname}: {ipaddr}/{cidr}"
-	"on-click": "~/.config/scripts/nmtui.sh"
+	"on-click": "~/.config/scripts/nmtui.sh",
+	"on-click-right": "exec swaymsg input type:touchpad events toggle enabled disabled"
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
@@ -222,11 +223,13 @@
             "car": "",
             "default": [" ", " ", " "]
         },
-        "on-click": "~/.config/scripts/pavucontrol.sh"
+        "on-click": "~/.config/scripts/pavucontrol.sh",
+	"on-click-right": "jamesdsp"
     },
     "custom/bluetooth": {
 	"format": " ",
-	"on-click": "~/.config/scripts/bluetuith.sh"
+	"on-click": "~/.config/scripts/bluetuith.sh",
+	"on-click-right": "exec swaymsg input 1:1:AT_Translated_Set_2_keyboard events toggle enabled disabled"
     },
     "group/network-bt": {
 	"orientation": "horizontal",
