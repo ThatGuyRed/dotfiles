@@ -2,13 +2,13 @@
 *
 
 !.gitignore
-!sway
-!waybar
-!rofi
-!nvim
-!winapps
-!yazi
-!fastfetch
-!scripts
-!autostart
+!sway/
+!waybar/
+!rofi/
+!nvim/
+!winapps/
+!yazi/
+!fastfetch/
+!scripts/
+!autostart/
 !tmux.conf
