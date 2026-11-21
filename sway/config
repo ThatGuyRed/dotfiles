@@ -30,7 +30,7 @@ set $filebrowser thunar
 #output eDP-1 bg /home/red/Pictures/Wallpapers/enterprise.jpg fill scale 1.3 pos 0 0
 #output eDP-1 bg /home/red/Pictures/Wallpapers/HMS_Barham.jpg fill scale 1.4 pos 0 0
 #output eDP-1 bg /home/red/Pictures/Wallpapers/dunkerque.jpg fill scale 1.4 pos 0 0
-output eDP-1 bg /home/red/Pictures/Wallpapers/richelieu.jpg fill scale 1.4 pos 0 0
+output eDP-1 bg /home/red/Pictures/Wallpapers/scharnhorst_kiel.jpg fill scale 1.4 pos 0 0
 #output eDP-1 bg /home/red/Pictures/Wallpapers/uss_washington_1.jpg fill scale 1.4 pos 0 0
 
 
@@ -203,9 +203,9 @@ output DP-1 scale 1.3 pos -1476 -100 bg /home/red/Pictures/Wallpapers/hessen.jpg
     bindsym $mod+v splitv
 
     # Switch the current container between different layout styles
-    bindsym $mod+a layout stacking
-    bindsym $mod+s layout tabbed
-    bindsym $mod+d layout toggle split
+    #bindsym $mod+a layout stacking
+    #bindsym $mod+s layout tabbed
+    #bindsym $mod+d layout toggle split
 
     # Make the current focus fullscreen
     bindsym $mod+f fullscreen
